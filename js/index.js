@@ -26,7 +26,7 @@ var config = {
 
                     source: {
                         format: "equi",
-                        url:"360-Pano-Vr-Walkthrough/images/pano-3.jpg"
+                        url:"/images/pano-3.jpg"
                     }
                 },
 
