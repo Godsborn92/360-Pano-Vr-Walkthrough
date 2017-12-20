@@ -26,7 +26,7 @@ var config = {
 
                     source: {
                         format: "equi",
-                        url:"https://cdn.forgejs.org/samples/hotspots-actions/pano-3.jpg"
+                        url:"images/01.jpg"
                     }
                 },
 
