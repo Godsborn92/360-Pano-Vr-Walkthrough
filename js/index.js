@@ -26,7 +26,7 @@ var config = {
 
                     source: {
                         format: "equi",
-                        url:"/images/pano-3.jpg"
+                        url:"C:\Users\jcarr\Documents\GitHub\360-Pano-Vr-Walkthrough\images\pano-3.jpg"
                     }
                 },
 
