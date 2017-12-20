@@ -26,7 +26,7 @@ var config = {
 
                     source: {
                         format: "equi",
-                        url:"360-Pano-Vr-Walkthrough/images/01.jpg"
+                        url:"360-Pano-Vr-Walkthrough/images/pano-3.jpg"
                     }
                 },
 
@@ -457,3 +457,11 @@ document.getElementById("vr").onclick = function() {
     }
     viewer.renderer.toggleVR();
 };
+
+//Find the Canvas
+/*window.onload = function() {
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    var img = document.getElementById("scream");
+    ctx.drawImage(img, 10, 10);
+}*/

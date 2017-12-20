@@ -1,0 +1,10 @@
+html, body{
+text-align:center;
+}
+#vrview{
+position:relative;
+padding-bottom: 41%;
+height:0;
+over-flow:hidden;
+max-width:100%;
+}
