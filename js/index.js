@@ -27,7 +27,7 @@ var config = {
 
                     source: {
                         format: "equi",
-                        url:"./images/pano-3.jpg"
+                        url:"./images/pano-1.jpg"
                     }
                 },
 
