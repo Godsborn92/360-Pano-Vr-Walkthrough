@@ -1,0 +1,147 @@
+body {
+  margin: 40px;
+  background-color:grey;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+
+.content {
+  grid-area: content;
+  position: relative;
+}
+
+.header {
+  grid-area: header;
+}
+
+.footer {
+  grid-area: footer;
+}
+
+.wrapper {
+        display: grid;
+    grid-gap: 10px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas:
+    "header  header  header"
+        "sidebar content content"
+        "footer  footer  footer";
+        background-color: #fff;
+        color: #444;
+		justify-content:center;
+		align-content:end;
+    }
+
+
+.box {
+  background-color: #fff;
+  color: #444;
+  border-radius: 2px;
+  padding: 50px;
+  font-size: 150%;
+}
+
+
+.header,
+.footer {
+  background-color: #fff;
+  text-align:center;
+}
+
+
+.bottomright {
+  height:45px;
+  width:45px;
+  position: absolute;
+  bottom: 0;
+  right: 100px;
+}
+
+.button{
+background-color:#a5a5aa;
+color:#fff;
+border-radius:5px;
+padding:5px;
+font-size:150%;
+}
+
+/*unvisted link*/
+a:link{
+text-decoration:none;
+color:#fff;
+}
+/*mouse over link*/
+a:hover{
+text-decoration:underline;
+color:#4242f4;
+}
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
