@@ -1,3 +1,4 @@
+
 var config = {
     camera: {
         fov: {
@@ -26,7 +27,7 @@ var config = {
 
                     source: {
                         format: "equi",
-                        url:"images/01.jpg"
+                        url:"./images/pano-1.jpg"
                     }
                 },
 
@@ -98,7 +99,7 @@ var config = {
                         },
 
                         events: {
-                            onClick: ["action-loadscene-1", "action-camera-3"]
+                            onClick: ["action-loadscene-2", "action-camera-2"]
                         }
                     }
                 ]
@@ -457,3 +458,11 @@ document.getElementById("vr").onclick = function() {
     }
     viewer.renderer.toggleVR();
 };
+
+//Find the Canvas
+/*window.onload = function() {
+    var c = document.getElementById("myCanvas");
+    var ctx = c.getContext("2d");
+    var img = document.getElementById("scream");
+    ctx.drawImage(img, 10, 10);
+}*/
