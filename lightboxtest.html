@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="RSI HMR Affordable Housing">
+  <meta name="keywords" content="RSI,HMR,Affordable,Housing">
+  <meta name="author" content="Jacob Carr">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HMR Tour</title>
+  
+  
+  
+      <link type="text/css" rel="stylesheet" href="css/style2.css">
+
+  
+</head>
+
+<body>
+<div class="wrapper">
+  <div class="box header">
+  <h1>HMR TOUR</h1>
+  <p><em>"Webpage for RSI Development's Affordable Housing"</em></p>
+  </div>
+  <div class="box sidebar">
+  <a href="index.html"class="button">Home</a><br /><br />
+  <a href="360.html"target="_blank"class="button">360 Viewing Tour</a><br /><br />
+  <a href="about.html"class = "button">About</a></br></br>
+  <a href="contact.html"class = "button">Contact</a>
+  
+  </div>
+  <div class="box content"><h2>Available Floor plans</h2>
+						   <p><em>Select From Available Floor Plans</em></p>
+
+
+<!--Images Used for Lightbox-->						  
+<div class="row">
+	<div class="column">
+		<img src="http://partners-dynamic.bdxcdn.com/Images/Homes/AHVHo18396/max1500_22520297-170515.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+		</div>
+	<div class="column">
+		<img src="http://partners-dynamic.bdxcdn.com/Images/Homes/AHVHo18396/max1500_22520297-170515.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+		</div>
+	<!--<div class="column">
+		<img src="http://partners-dynamic.bdxcdn.com/Images/Homes/AHVHo18396/max1500_22520297-170515.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+		</div>
+	<div class="column">
+		<img src="http://partners-dynamic.bdxcdn.com/Images/Homes/AHVHo18396/max1500_22520297-170515.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+		</div>-->
+		<!--<img src="http://partners-dynamic.bdxcdn.com/Images/Homes/AHVHo18396/max1500_22520297-170515.jpg" style="width:100%">-->
+</div>
+<!--The Modal/Lightbox-->
+<div id="myModal" class="modal">
+<span class="close cursor" onclick="closeModal()">&times;</span>
+	<div class ="modal-content">
+		<div class="mySlides">
+			<div class="numbertext">1/4</div>
+			<img src="http://partners-dynamic.bdxcdn.com/Images/Homes/AHVHo18396/max1500_22520297-170515.jpg" style=width:100%">
+		</div>
+		<div class="mySlides">
+			<div class="numbertext">2/4</div>
+			<img src="http://partners-dynamic.bdxcdn.com/Images/Homes/AHVHo18396/max1500_22520297-170515.jpg" style=width:100%">
+		</div>
+		<div class="mySlides">
+			<div class="numbertext">3/4</div>
+			<img src="http://partners-dynamic.bdxcdn.com/Images/Homes/AHVHo18396/max1500_22520297-170515.jpg" style=width:100%">
+		</div>
+		<div class="mySlides">
+			<div class="numbertext">4/4</div>
+			<img src="http://partners-dynamic.bdxcdn.com/Images/Homes/AHVHo18396/max1500_22520297-170515.jpg" style=width:100%">
+		</div>
+<!--Next/Previous controls-->
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+<!--Caption text -->
+<div class="caption-container">
+	<p id="caption"></p>
+</div>
+<!--Thumbnail image controls -->
+<div class="column">
+	<img class="demo" src="http://partners-dynamic.bdxcdn.com/Images/Homes/AHVHo18396/max1500_22520297-170515.jpg" onclick="currentSlide(1)" alt="1583">
+</div>
+<div class="column">
+	<img class="demo" src="http://partners-dynamic.bdxcdn.com/Images/Homes/AHVHo18396/max1500_22520297-170515.jpg" onclick="currentSlide(2)" alt="1988">
+</div>
+<div class="column">
+	<img class="demo" src="http://partners-dynamic.bdxcdn.com/Images/Homes/AHVHo18396/max1500_22520297-170515.jpg" onclick="currentSlide(3)" alt="2014">
+</div>
+<div class="column">
+	<img class="demo" src="http://partners-dynamic.bdxcdn.com/Images/Homes/AHVHo18396/max1500_22520297-170515.jpg" onclick="currentSlide(4)" alt="1989">
+</div>
+</div>
+</div>
+<!--<div class="column">
+		<img src="http://partners-dynamic.bdxcdn.com/Images/Homes/AHVHo18396/max1500_22520297-170515.jpg" style="width:100%">
+		<img src="http://partners-dynamic.bdxcdn.com/Images/Homes/AHVHo18396/max1500_22520297-170515.jpg" style="width:100%">
+		<img src="http://partners-dynamic.bdxcdn.com/Images/Homes/AHVHo18396/max1500_22520297-170515.jpg" style="width:100%">
+		<img src="http://partners-dynamic.bdxcdn.com/Images/Homes/AHVHo18396/max1500_22520297-170515.jpg" style="width:100%">
+		<img src="http://partners-dynamic.bdxcdn.com/Images/Homes/AHVHo18396/max1500_22520297-170515.jpg" style="width:100%">
+</div>
+<div class="column">
+		<img src="http://partners-dynamic.bdxcdn.com/Images/Homes/AHVHo18396/max1500_22520297-170515.jpg" style="width:100%">
+		<img src="http://partners-dynamic.bdxcdn.com/Images/Homes/AHVHo18396/max1500_22520297-170515.jpg" style="width:100%">
+		<img src="http://partners-dynamic.bdxcdn.com/Images/Homes/AHVHo18396/max1500_22520297-170515.jpg" style="width:100%">
+		<img src="http://partners-dynamic.bdxcdn.com/Images/Homes/AHVHo18396/max1500_22520297-170515.jpg" style="width:100%">
+		<img src="http://partners-dynamic.bdxcdn.com/Images/Homes/AHVHo18396/max1500_22520297-170515.jpg" style="width:100%">
+</div>
+
+   </div>-->
+    <img src="https://media.glassdoor.com/sqll/295660/rsi-home-products-squarelogo.png" alt="RSI Logo" class="bottomright" /></div>
+  <div class="box footer">This is a project by Jacob Carr. This site and it's Images are Property of <em>RSI Development</em>.<br />Copyright 2017 <strong>RSI,LLC ALL RIGHTS REVESERVED</strong>.</div>
+</div>
+<script>
+// Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</body>
+</html>
