@@ -16,8 +16,9 @@ button#vr {
     top: 20px;
     right: 20px;
 }
-input {
+button#home {
     position: absolute;
     top: 50px;
     right: 20px;
 }
+

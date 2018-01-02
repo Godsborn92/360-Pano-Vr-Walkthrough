@@ -459,9 +459,9 @@ document.getElementById("vr").onclick = function() {
     viewer.renderer.toggleVR();
 };
 
-function newDoc(){
-	window.location.assign("index.html")
-}
+document.getElementById("home").onclick = function(){
+	window.location.assign("index.html");
+};
 
 //Find the Canvas
 /*window.onload = function() {
