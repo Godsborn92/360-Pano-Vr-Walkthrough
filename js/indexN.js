@@ -1,1 +1,1 @@
-var Viewer = new FORGE.Viewer("container","config.json")
+var viewer = new FORGE.Viewer("container","config.json");
