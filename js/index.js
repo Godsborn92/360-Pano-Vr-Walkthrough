@@ -209,7 +209,7 @@ var config = {
                     source: {
                         format: "equi",
                         url:
-                            "https://cdn.forgejs.org/samples/hotspots-actions/pano-4.jpg"
+                            "./images/1583-mbath.jpg"
                     }
                 },
 
@@ -299,7 +299,7 @@ var config = {
                     source: {
                         format: "equi",
                         url:
-                            "https://cdn.forgejs.org/samples/hotspots-actions/pano-5.jpg"
+                            "./images/1583-mbed.jpg"
                     }
                 },
 
