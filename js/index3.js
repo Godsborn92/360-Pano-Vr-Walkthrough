@@ -1,5 +1,6 @@
 
 var config = {
+	
     camera: {
         fov: {
             default: 90,
@@ -27,7 +28,7 @@ var config = {
 
                     source: {
                         format: "equi",
-                        url:"./images/1583-GR.jpg"
+                        url:"https://cdn.forgejs.org/samples/hotspots-actions/pano-3.jpg"
                     }
                 },
 
@@ -445,6 +446,25 @@ var config = {
         }
     ]
 };
+plugins:
+    {
+        prefix: "../../plugins/",
+
+        engines:
+        [
+            {
+                uid: "org.forgejs.editor",
+                url: "Editor/"
+            }
+        ],
+
+        instances:
+        [
+            {
+                uid: "editor",
+                engine: "org.forgejs.editor"
+            }
+        ]
 
 // Create a viewer
 var viewer = new FORGE.Viewer("container", config);
