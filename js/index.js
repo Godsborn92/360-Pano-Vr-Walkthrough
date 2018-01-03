@@ -1,9 +1,10 @@
 
 var config = {
     camera: {
+		parallax:0,
         fov: {
             default: 90,
-            min: 30,
+            min: 70,
             max: 110
         }
     },
