@@ -66,7 +66,8 @@ var config = {
                         events: {
                             onClick: ["action-loadscene-2", "action-camera-2"]
                         }
-                    }
+					}
+				},
 
    					
 
