@@ -38,7 +38,7 @@ var config = {
                         transform: {
                             position: {
                                 theta: -90,
-                                phi: -25,
+                                phi: -50,
                                 radius: 600
                             },
 
@@ -118,7 +118,7 @@ var config = {
                     source: {
                         format: "equi",
                         url:
-                            "https://cdn.forgejs.org/samples/hotspots-actions/pano-3.jpg"
+                            "./images/1583-KIT.jpg"
                     }
                 },
 
