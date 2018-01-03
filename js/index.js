@@ -37,8 +37,8 @@ var config = {
 
                         transform: {
                             position: {
-                                theta: -90,
-                                phi: -50,
+                                theta: 10,
+                                phi: 90,
                                 radius: 600
                             },
 
@@ -64,46 +64,11 @@ var config = {
                         },
 
                         events: {
-                            onClick: ["action-loadscene-2", "action-camera-1"]
+                            onClick: ["action-loadscene-2", "action-camera-2"]
                         }
                     },
 
-                    {
-                        uid: "hotspot-s1-2",
-
-                        transform: {
-                            position: {
-                                theta: -175,
-                                phi: -5,
-                                radius: 700
-                            },
-
-                            rotation: {
-                                x: 82,
-                                y: 175
-                            }
-                        },
-
-                        geometry: {
-                            type: "plane",
-                            options: {
-                                width: 100,
-                                height: 100
-                            }
-                        },
-
-                        material: {
-                            image:
-                                "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
-                            opacity: 1
-                        },
-
-                        events: {
-                            onClick: ["action-loadscene-2", "action-camera-1"]
-                        }
-                    }
-                ]
-            },
+   					
 
             {
                 uid: "scene-2",
