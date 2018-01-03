@@ -64,7 +64,7 @@ var config = {
                         },
 
                         events: {
-                            onClick: ["action-loadscene-2", "action-camera-1"]
+                            onClick: ["action-loadscene-2", "action-camera-2"]
                         }
                     },
 
@@ -99,7 +99,7 @@ var config = {
                         },
 
                         events: {
-                            onClick: ["action-loadscene-2", "action-camera-2"]
+                            onClick: ["action-loadscene-3", "action-camera-3"]
                         }
                     }
                 ]
@@ -190,7 +190,7 @@ var config = {
                         },
 
                         events: {
-                            onClick: ["action-loadscene-1", "action-camera-3"]
+                            onClick: ["action-loadscene-4", "action-camera-3"]
                         }
                     }
                 ]
