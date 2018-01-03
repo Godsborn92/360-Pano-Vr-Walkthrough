@@ -1,10 +1,11 @@
 
 var config = {
+	
     camera: {
         fov: {
             default: 90,
-            min: 70,
-            max: 110
+            min: 50,
+            max: 120
         }
     },
 
@@ -27,7 +28,7 @@ var config = {
 
                     source: {
                         format: "equi",
-                        url:"./images/1583-GR.jpg"
+                        url:"https://cdn.forgejs.org/samples/hotspots-actions/pano-3.jpg"
                     }
                 },
 
@@ -38,7 +39,7 @@ var config = {
                         transform: {
                             position: {
                                 theta: -90,
-                                phi: -50,
+                                phi: -25,
                                 radius: 600
                             },
 
@@ -99,7 +100,7 @@ var config = {
                         },
 
                         events: {
-                            onClick: ["action-loadscene-2", "action-camera-1"]
+                            onClick: ["action-loadscene-2", "action-camera-2"]
                         }
                     }
                 ]
@@ -118,7 +119,7 @@ var config = {
                     source: {
                         format: "equi",
                         url:
-                            "./images/1583-KIT.jpg"
+                            "https://cdn.forgejs.org/samples/hotspots-actions/pano-3.jpg"
                     }
                 },
 
@@ -128,7 +129,7 @@ var config = {
 
                         transform: {
                             position: {
-                                theta: -75,
+                                theta: 75,
                                 phi: -25,
                                 radius: 600
                             },
@@ -190,7 +191,7 @@ var config = {
                         },
 
                         events: {
-                            onClick: ["action-loadscene-4", "action-camera-3"]
+                            onClick: ["action-loadscene-1", "action-camera-3"]
                         }
                     }
                 ]
@@ -209,7 +210,7 @@ var config = {
                     source: {
                         format: "equi",
                         url:
-                            "./images/1583-mbath.jpg"
+                            "https://cdn.forgejs.org/samples/hotspots-actions/pano-4.jpg"
                     }
                 },
 
@@ -299,7 +300,7 @@ var config = {
                     source: {
                         format: "equi",
                         url:
-                            "./images/1583-mbed.jpg"
+                            "https://cdn.forgejs.org/samples/hotspots-actions/pano-5.jpg"
                     }
                 },
 
@@ -445,6 +446,25 @@ var config = {
         }
     ]
 };
+plugins:
+    {
+        prefix: "../../plugins/",
+
+        engines:
+        [
+            {
+                uid: "org.forgejs.editor",
+                url: "Editor/"
+            }
+        ],
+
+        instances:
+        [
+            {
+                uid: "editor",
+                engine: "org.forgejs.editor"
+            }
+        ]
 
 // Create a viewer
 var viewer = new FORGE.Viewer("container", config);
