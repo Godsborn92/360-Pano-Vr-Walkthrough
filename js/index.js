@@ -4,7 +4,7 @@ var config = {
         fov: {
             default: 90,
             min: 50,
-            max: 120
+            max: 110
         }
     },
 
