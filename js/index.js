@@ -247,42 +247,7 @@ var config = {
                         events: {
                             onClick: ["action-loadscene-4", "action-camera-4"]
                         }
-                    },
-
-                    {
-                        uid: "hotspot-s3-2",
-
-                        transform: {
-                            position: {
-                                theta: 178,
-                                phi: -8,
-                                radius: 700
-                            },
-
-                            rotation: {
-                                x: 82,
-                                y: -178
-                            }
-                        },
-
-                        geometry: {
-                            type: "plane",
-                            options: {
-                                width: 100,
-                                height: 100
-                            }
-                        },
-
-                        material: {
-                            image:
-                                "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
-                            opacity: 1
-                        },
-
-                        events: {
-                            onClick: ["action-loadscene-2", "action-camera-5"]
-                        }
-                    }
+                    }                                       
                 ]
             },
 
