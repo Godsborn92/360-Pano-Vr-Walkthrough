@@ -166,7 +166,7 @@ var config = {
                             position: {
                                 theta: -75,
                                 phi: -45,
-                                radius: 600
+                                radius: 700
                             },
 
                             rotation: {
