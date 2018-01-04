@@ -344,14 +344,14 @@ var config = {
 
                         transform: {
                             position: {
-                                theta: 150,
+                                theta: 130,
                                 phi: -50,
                                 radius: 700
                             },
 
                             rotation: {
                                 x: 82,
-                                y: -178
+                                y: -158
                             }
                         },
 
