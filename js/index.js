@@ -337,7 +337,7 @@ var config = {
                         events: {
                             onClick: ["action-loadscene-3", "action-camera-6"]
                         }
-					{,
+					},
 					
 					{
 						uid: "hotspot-s4-2",
