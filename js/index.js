@@ -128,14 +128,14 @@ var config = {
 
                         transform: {
                             position: {
-                                theta: -75,
-                                phi: -25,
-                                radius: 600
+                                theta: 175,
+                                phi: -5,
+                                radius: 700
                             },
 
                             rotation: {
-                                x: 85,
-                                y: -60
+                                x: 82,
+                                y: -175
                             }
                         },
 
@@ -164,14 +164,14 @@ var config = {
 
                         transform: {
                             position: {
-                                theta: -175,
-                                phi: -5,
-                                radius: 700
+                                theta: -75,
+                                phi: -25,
+                                radius: 600
                             },
 
                             rotation: {
-                                x: 82,
-                                y: 175
+                                x: 85,
+                                y: -60
                             }
                         },
 
@@ -190,7 +190,7 @@ var config = {
                         },
 
                         events: {
-                            onClick: ["action-loadscene-4", "action-camera-3"]
+                            onClick: ["action-loadscene-3", "action-camera-3"]
                         }
                     }
                 ]
