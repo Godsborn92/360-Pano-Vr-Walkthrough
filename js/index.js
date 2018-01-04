@@ -37,7 +37,7 @@ var config = {
 
                         transform: {
                             position: {
-                                theta: -118,
+                                theta: -120,
                                 phi: 160,
                                 radius: 600
                             },
@@ -73,7 +73,7 @@ var config = {
 
                         transform: {
                             position: {
-                                theta: -175,
+                                theta: -155,
                                 phi: -5,
                                 radius: 700
                             },
