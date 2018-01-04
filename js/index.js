@@ -44,7 +44,7 @@ var config = {
 
                             rotation: {
                                 x: 85,
-                                y: -50
+                                y: -90
                             }
                         },
 
