@@ -338,8 +338,9 @@ var config = {
                             onClick: ["action-loadscene-3", "action-camera-6"]
                         }
 					{,
-						{
-							                       uid: "hotspot-s3-2",
+					
+					{
+						uid: "hotspot-s4-2",
 
                         transform: {
                             position: {
@@ -369,7 +370,7 @@ var config = {
                         },
 
                         events: {
-                            onClick: ["action-loadscene-2", "action-camera-5"]
+                            onClick: ["action-loadscene-1", "action-camera-5"]
                         }
 					}
                 ]
