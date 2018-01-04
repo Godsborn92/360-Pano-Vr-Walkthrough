@@ -164,7 +164,7 @@ var config = {
 
                         transform: {
                             position: {
-                                theta: -75,
+                                theta: -70,
                                 phi: -15,
                                 radius: 700
                             },
