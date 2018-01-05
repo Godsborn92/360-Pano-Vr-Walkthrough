@@ -341,7 +341,7 @@ var config = {
                 ]
             }
         ]
-    },
+    },	
 
     actions: [
         {
@@ -445,6 +445,7 @@ var config = {
         }
     ]
 };
+
 
 // Create a viewer
 var viewer = new FORGE.Viewer("container", config);
