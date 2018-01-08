@@ -1,4 +1,4 @@
-
+/*
 var config = {
     camera: {
         fov: {
@@ -445,10 +445,10 @@ var config = {
         }
     ]
 };
-
+*/
 
 // Create a viewer
-var viewer = new FORGE.Viewer("container", config);
+var viewer = new FORGE.Viewer("container", "config.json");
 
 document.getElementById("vr").onclick = function() {
     var el = document.getElementById("vr").firstChild;
