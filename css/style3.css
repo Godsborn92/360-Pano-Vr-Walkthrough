@@ -1,6 +1,10 @@
 body {
-  margin: 20px;
-  background-color:grey;
+  margin: 40px;
+  background-color:#232163;
+}
+h1,h2,h3,h4,h5,h6,span,ul,li,p{
+font-family:'Open Sans', 'sans-serif';
+color:#232163;
 }
 
 .sidebar {
@@ -23,10 +27,10 @@ body {
 
 .wrapper {
         display: grid;
-    grid-gap: 10px;
+		grid-gap: 10px;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-areas:
-    "header  header  header"
+        "header  header  header"
         "sidebar content content"
         "footer  footer  footer";
         background-color: #fff;
@@ -43,10 +47,32 @@ body {
   padding: 50px;
   font-size: 150%;
 }
-.header,
+.header{
+background-color: #fff;
+text-align:center;
+}
+
+.social{
+grid-area:header;
+text-align:right;
+position:absolute;
+top:0;
+right:0;
+}
+.Smedia{
+color:#fff;
+}
+.headerStyle,h1 {
+background-color:#fff;
+border-radius:5px;
+color:#232163;
+text-align:center;
+}
+
 .footer {
   background-color: #fff;
   text-align:center;
+  color:#232163;
 }
 
 
@@ -59,9 +85,11 @@ body {
 }
 
 .button{
-background-color:#a5a5aa;
+background-color:#232163;
 color:#fff;
 border-radius:5px;
+border:1px solid;
+box-shadow:5px 10px;
 padding:5px;
 font-size:150%;
 }
@@ -77,11 +105,6 @@ text-decoration:underline;
 color:#4242f4;
 }
 
-/*body {
-  font-family: Verdana, sans-serif;
-  margin: 0;
-}
-*/
 * {
   box-sizing: border-box;
 }
@@ -229,6 +252,9 @@ map{
 display:inline;
 color:red;
 }
+
+
+
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media (max-width: 800px) {
