@@ -1,6 +1,10 @@
 body {
   margin: 40px;
-  background-color:grey;
+  background-color:#232163;
+}
+h1,h2,h3,h4,h5,h6,span,ul,li,p{
+font-family:'Open Sans', 'sans-serif';
+color:#232163;
 }
 
 .sidebar {
@@ -43,12 +47,32 @@ body {
   padding: 50px;
   font-size: 150%;
 }
+.header{
+background-color: #fff;
+text-align:center;
+}
 
+.social{
+grid-area:header;
+text-align:right;
+position:absolute;
+top:0;
+right:0;
+}
+.Smedia{
+color:#fff;
+}
+.headerStyle,h1 {
+background-color:#fff;
+border-radius:5px;
+color:#232163;
+text-align:center;
+}
 
-.header,
 .footer {
   background-color: #fff;
   text-align:center;
+  color:#232163;
 }
 
 
@@ -61,9 +85,11 @@ body {
 }
 
 .button{
-background-color:#a5a5aa;
+background-color:#232163;
 color:#fff;
 border-radius:5px;
+border:1px solid;
+box-shadow:5px 10px;
 padding:5px;
 font-size:150%;
 }
