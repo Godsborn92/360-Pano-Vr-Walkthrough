@@ -396,7 +396,7 @@
                         },
 
                         "events": {
-                            "onClick": ["action-loadscene-1", "action-camera-1"]
+                            "onClick": ["action-loadscene-7", "action-camera-1"]
 							
                         }
                     },
@@ -432,7 +432,7 @@
                         },
 
                         "events": {
-                            "onClick": ["action-loadscene-1", "action-camera-1"]
+                            "onClick": ["action-loadscene-6", "action-camera-1"]
 							
                         }
                     },
@@ -468,7 +468,7 @@
                         },
 
                         "events": {
-                            "onClick": ["action-loadscene-1", "action-camera-1"]
+                            "onClick": ["action-loadscene-8", "action-camera-1"]
 							
                         }
                     },
@@ -505,6 +505,522 @@
 
                         "events": {
                             "onClick": ["action-loadscene-1", "action-camera-1"]
+							
+                        }
+					}
+                ]
+            },
+
+            {
+                "uid": "scene-6",
+                "name": "Sixth Scene",
+                "slug": "Sixth-scene",
+                "description": "This is the sixth scene",
+
+                "media": {
+                    "uid": "media-6",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1583-KIT.jpg"
+                    }
+                },
+
+                "hotspots": [
+					{
+						"uid": "hotspot-s6-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": -10,
+                                "phi": -25,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 0
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-7", "action-camera-1"]
+							
+                        }
+                    },
+                    
+                    {
+						"uid": "hotspot-s6-2",
+
+                        "transform": {
+                            "position": {
+                                "theta": -110,
+                                "phi": -38,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 180
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-5", "action-camera-1"]
+							
+                        }
+					}
+                ]
+            },
+
+            {
+                "uid": "scene-7",
+                "name": "Seventh Scene",
+                "slug": "Seventh-scene",
+                "description": "This is the seventh scene",
+
+                "media": {
+                    "uid": "media-7",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1583-great-rm.jpg"
+                    }
+                },
+
+                "hotspots": [
+					{
+						"uid": "hotspot-s7-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": 134,
+                                "phi": -43,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 180
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-6", "action-camera-1"]
+							
+                        }
+                    },
+                    
+                    {
+						"uid": "hotspot-s7-2",
+
+                        "transform": {
+                            "position": {
+                                "theta": -170,
+                                "phi": -28,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 180
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-5", "action-camera-1"]
+							
+                        }
+                    },
+                    
+                    {
+						"uid": "hotspot-s7-3",
+
+                        "transform": {
+                            "position": {
+                                "theta": -109,
+                                "phi": -25,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-10", "action-camera-1"]
+							
+                        }
+					}
+                ]
+            },
+
+            {
+                "uid": "scene-8",
+                "name": "Eigth Scene",
+                "slug": "eigth-scene",
+                "description": "This is the eigth scene",
+
+                "media": {
+                    "uid": "media-8",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1583-laundry.jpg"
+                    }
+                },
+
+                "hotspots": [
+					{
+						"uid": "hotspot-s8-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": 73,
+                                "phi": -59,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": -90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-5", "action-camera-1"]
+							
+                        }
+                    },
+                    
+                    {
+						"uid": "hotspot-s8-2",
+
+                        "transform": {
+                            "position": {
+                                "theta": 180,
+                                "phi": -48,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 180
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-9", "action-camera-1"]
+							
+                        }
+					}
+                ]
+            },
+
+            {
+                "uid": "scene-9",
+                "name": "Ninth Scene",
+                "slug": "ninth-scene",
+                "description": "This is the ninth scene",
+
+                "media": {
+                    "uid": "media-9",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1583-garage.jpg"
+                    }
+                },
+
+                "hotspots": [
+					{
+						"uid": "hotspot-s9-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": 45,
+                                "phi": -28,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 0
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-8", "action-camera-1"]
+							
+                        }
+					}
+                ]
+            },
+
+            {
+                "uid": "scene-10",
+                "name": "Tenth Scene",
+                "slug": "tenth-scene",
+                "description": "This is the tenth scene",
+
+                "media": {
+                    "uid": "media-10",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1583-mbed.jpg"
+                    }
+                },
+
+                "hotspots": [
+					{
+						"uid": "hotspot-s10-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": -155,
+                                "phi": -30,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 180
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-11", "action-camera-1"]
+							
+                        }
+                    },
+                    
+                    {
+						"uid": "hotspot-s10-2",
+
+                        "transform": {
+                            "position": {
+                                "theta": 170,
+                                "phi": -38,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": -150
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-7", "action-camera-1"]
+							
+                        }
+					}
+                ]
+            },
+
+            {
+                "uid": "scene-11",
+                "name": "Eleventh Scene",
+                "slug": "eleventh-scene",
+                "description": "This is the eleventh scene",
+
+                "media": {
+                    "uid": "media-11",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1583-mbath.jpg"
+                    }
+                },
+
+                "hotspots": [
+					{
+						"uid": "hotspot-s11-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": 5,
+                                "phi": -28,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 0
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-10", "action-camera-1"]
 							
                         }
 					}
@@ -560,6 +1076,60 @@
             "method": {
                 "name": "loadScene",
                 "args": ["scene-5"]
+            }
+        },
+        {
+            "uid": "action-loadscene-6",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-6"]
+            }
+        },
+        {
+            "uid": "action-loadscene-7",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-7"]
+            }
+        },
+        {
+            "uid": "action-loadscene-8",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-8"]
+            }
+        },
+        {
+            "uid": "action-loadscene-9",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-9"]
+            }
+        },
+        {
+            "uid": "action-loadscene-10",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-10"]
+            }
+        },
+        {
+            "uid": "action-loadscene-11",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-11"]
             }
         },
 
