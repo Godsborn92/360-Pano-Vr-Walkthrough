@@ -58,7 +58,7 @@
 
                         "material": {
                             "image":
-                                "https://cdn.forgejs.org/samples/hotspots-actions/ChevronUpCircle_white_64.png",
+                                "./images/ChevronUpCircle_white_64.png",
 								
                             "opacity": 1
                         },
@@ -100,7 +100,7 @@
                         },
 
                         "events": {
-                            "onClick": ["action-loadscene-3", "action-camera-1"]
+                            "onClick": ["action-loadscene-3", "action-camera-4"]
 							
                         }
                     },
