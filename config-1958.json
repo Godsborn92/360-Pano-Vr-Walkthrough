@@ -442,7 +442,7 @@
                         },
 
                         "events": {
-                            "onClick": ["action-loadscene-6", "action-camera-1", "action-dom-1"]
+                            "onClick": ["action-loadscene-6", "action-camera-1"]
 							
                         }
                     },
