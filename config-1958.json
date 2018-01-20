@@ -37,7 +37,7 @@
 
                     "source": {
                         "format": "equi",
-                        "url":"./images/1583-entry.jpg"
+                        "url":"./images/1958/entry.jpg"
                     }
                 },
 
@@ -47,14 +47,14 @@
 
                         "transform": {
                             "position": {
-                                "theta": 35,
+                                "theta": 45,
                                 "phi": -44,
                                 "radius": 600
                             },
 
                             "rotation": {
                                 "x": 85,
-                                "y": -45
+                                "y": -0
                             }
                         },
 
@@ -68,7 +68,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-bed3.png",
+                                "./images/HS/bed3.png",
 								
                             "opacity": 1
                         },
@@ -84,8 +84,8 @@
 
                         "transform": {
                             "position": {
-                                "theta": 77,
-                                "phi": -41,
+                                "theta": 65,
+                                "phi": -36,
                                 "radius": 700
                             },
 
@@ -105,7 +105,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-bath2.png",
+                                "./images/HS/bath2.png",
                             "opacity": 1
                         },
 
@@ -120,7 +120,7 @@
 
                         "transform": {
                             "position": {
-                                "theta": 136,
+                                "theta": 106,
                                 "phi": -50,
                                 "radius": 700
                             },
@@ -141,7 +141,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-bed2.png",
+                                "./images/HS/bed2.png",
                             "opacity": 1
                         },
 
@@ -177,51 +177,15 @@
 
                         "material": {
                             "image":
-                                "./images/HS-hall.png",
+                                "./images/HS/hall.png",
                             "opacity": 1
                         },
 
                         "events": {
-                            "onClick": ["action-loadscene-5", "action-camera-2"]
+                            "onClick": ["action-loadscene-5", "action-camera-3"]
 							
                         }
-                    },
-
-                    {
-						"uid": "hotspot-s1-5",
-
-                        "transform": {
-                            "position": {
-                                "theta": -163,
-                                "phi": -15,
-                                "radius": 100
-                            },
-
-                            "rotation": {
-                                "x": 0,
-                                "y": -180
-                            }
-                        },
-
-                        "geometry": {
-                            "type": "plane",
-                            "options": {
-                                "width": 80,
-                                "height": 100
-                            }
-                        },
-
-                        "material": {
-                            "image":
-                                "./images/door.png",
-                            "opacity": 1
-                        },
-
-                        "events": {
-                            "onClick": ["action-loadscene-12", "action-camera-2"]
-							
-                        }
-                    }                                                                            
+                    }                                                                           
                 ]
             },
 
@@ -238,7 +202,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583-bed-3.jpg"
+                            "./images/1958/bed-3.jpg"
                     }
                 },
 
@@ -269,7 +233,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-entry.png",
+                                "./images/HS/entry.png",
                             "opacity": 1
                         },
 
@@ -294,7 +258,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583-bath-2.jpg"
+                            "./images/1958/bath-2.jpg"
                     }
                 },
 
@@ -325,7 +289,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-entry.png",
+                                "./images/HS/entry.png",
                             "opacity": 1
                         },
 
@@ -350,7 +314,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583-bed-2.jpg"
+                            "./images/1958/bed-2.jpg"
                     }
                 },
 
@@ -361,7 +325,7 @@
                         "transform": {
                             "position": {
                                 "theta": -15,
-                                "phi": -52,
+                                "phi": -42,
                                 "radius": 700
                             },
 
@@ -381,7 +345,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-entry.png",
+                                "./images/HS/entry.png",
                             "opacity": 1
                         },
 
@@ -406,7 +370,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583-hall.jpg"
+                            "./images/1958/hall.jpg"
                     }
                 },
 
@@ -416,8 +380,8 @@
 
                         "transform": {
                             "position": {
-                                "theta": -1,
-                                "phi": -28,
+                                "theta": -65,
+                                "phi": -38,
                                 "radius": 700
                             },
 
@@ -437,7 +401,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-greatroom.png",
+                                "./images/HS/greatroom.png",
                             "opacity": 1
                         },
 
@@ -452,44 +416,8 @@
 
                         "transform": {
                             "position": {
-                                "theta": 28,
-                                "phi": -50,
-                                "radius": 700
-                            },
-
-                            "rotation": {
-                                "x": 82,
-                                "y": -45
-                            }
-                        },
-
-                        "geometry": {
-                            "type": "plane",
-                            "options": {
-                                "width": 100,
-                                "height": 100
-                            }
-                        },
-
-                        "material": {
-                            "image":
-                                "./images/HS-kitchen.png",
-                            "opacity": 1
-                        },
-
-                        "events": {
-                            "onClick": ["action-loadscene-6", "action-camera-1"]
-							
-                        }
-                    },
-                    
-                    {
-						"uid": "hotspot-s5-3",
-
-                        "transform": {
-                            "position": {
-                                "theta": -106,
-                                "phi": -61,
+                                "theta": -90,
+                                "phi": -47,
                                 "radius": 700
                             },
 
@@ -509,18 +437,18 @@
 
                         "material": {
                             "image":
-                                "./images/HS-laundry.png",
+                                "./images/HS/kitchen.png",
                             "opacity": 1
                         },
 
                         "events": {
-                            "onClick": ["action-loadscene-8", "action-camera-2"]
+                            "onClick": ["action-loadscene-6", "action-camera-1", "action-dom-1"]
 							
                         }
                     },
-                    
+                                                          
                     {
-						"uid": "hotspot-s5-4",
+						"uid": "hotspot-s5-3",
 
                         "transform": {
                             "position": {
@@ -545,7 +473,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-entry.png",
+                                "./images/HS/entry.png",
                             "opacity": 1
                         },
 
@@ -553,7 +481,43 @@
                             "onClick": ["action-loadscene-1", "action-camera-2"]
 							
                         }
-					}
+                    },
+                    
+                    {
+						"uid": "hotspot-s5-4",
+
+                        "transform": {
+                            "position": {
+                                "theta": -156,
+                                "phi": -37,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/hall.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-14", "action-camera-2"]
+							
+                        }
+                    }
                 ]
             },
 
@@ -570,7 +534,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583-KIT.jpg"
+                            "./images/1958/KIT.jpg"
                     }
                 },
 
@@ -580,8 +544,8 @@
 
                         "transform": {
                             "position": {
-                                "theta": -10,
-                                "phi": -25,
+                                "theta": 10,
+                                "phi": -22,
                                 "radius": 700
                             },
 
@@ -601,7 +565,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-greatroom.png",
+                                "./images/HS/greatroom.png",
                             "opacity": 1
                         },
 
@@ -616,14 +580,14 @@
 
                         "transform": {
                             "position": {
-                                "theta": -110,
-                                "phi": -38,
+                                "theta": 93,
+                                "phi": -45,
                                 "radius": 700
                             },
 
                             "rotation": {
                                 "x": 82,
-                                "y": 180
+                                "y": -90
                             }
                         },
 
@@ -637,7 +601,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-hall.png",
+                                "./images/HS/hall.png",
                             "opacity": 1
                         },
 
@@ -646,9 +610,46 @@
 							
                         }
                     },
+
+                    {
+						"uid": "hotspot-s6-3",
+
+                        "transform": {
+                            "position": {
+                                "theta": 28,
+                                "phi": -25,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 85,
+                                "y": -90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/hall.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-15", "action-camera-2"]
+							
+                        }
+                    },
                     
                     {
-                        "uid": "hotspot-dom-two",
+                        "uid": "hotspot-s6-4",
+                        "visible": true,
                         "interactive": true,
                         "type": "dom",
 
@@ -686,7 +687,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583-great-rm.jpg"
+                            "./images/1958/great-rm.jpg"
                     }
                 },
 
@@ -696,8 +697,8 @@
 
                         "transform": {
                             "position": {
-                                "theta": 134,
-                                "phi": -43,
+                                "theta": 170,
+                                "phi": -18,
                                 "radius": 700
                             },
 
@@ -717,7 +718,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-kitchen.png",
+                                "./images/HS/kitchen.png",
                             "opacity": 1
                         },
 
@@ -732,100 +733,8 @@
 
                         "transform": {
                             "position": {
-                                "theta": -170,
+                                "theta": 160,
                                 "phi": -28,
-                                "radius": 700
-                            },
-
-                            "rotation": {
-                                "x": 82,
-                                "y": 180
-                            }
-                        },
-
-                        "geometry": {
-                            "type": "plane",
-                            "options": {
-                                "width": 100,
-                                "height": 100
-                            }
-                        },
-
-                        "material": {
-                            "image":
-                                "./images/HS-hall.png",
-                            "opacity": 1
-                        },
-
-                        "events": {
-                            "onClick": ["action-loadscene-5", "action-camera-2"]
-							
-                        }
-                    },
-                    
-                    {
-						"uid": "hotspot-s7-3",
-
-                        "transform": {
-                            "position": {
-                                "theta": -109,
-                                "phi": -25,
-                                "radius": 700
-                            },
-
-                            "rotation": {
-                                "x": 82,
-                                "y": 90
-                            }
-                        },
-
-                        "geometry": {
-                            "type": "plane",
-                            "options": {
-                                "width": 100,
-                                "height": 100
-                            }
-                        },
-
-                        "material": {
-                            "image":
-                                "./images/HS-msbed.png",
-                            "opacity": 1
-                        },
-
-                        "events": {
-                            "onClick": ["action-loadscene-10", "action-camera-2"]
-							
-                        }
-					}
-                ]
-            },
-
-            {
-                "uid": "scene-8",
-                "name": "Eigth Scene",
-                "slug": "eigth-scene",
-                "description": "This is the eigth scene",
-
-                "media": {
-                    "uid": "media-8",
-                    "type": "image",
-
-                    "source": {
-                        "format": "equi",
-                        "url":
-                            "./images/1583-laundry.jpg"
-                    }
-                },
-
-                "hotspots": [
-					{
-						"uid": "hotspot-s8-1",
-
-                        "transform": {
-                            "position": {
-                                "theta": 73,
-                                "phi": -59,
                                 "radius": 700
                             },
 
@@ -845,12 +754,69 @@
 
                         "material": {
                             "image":
-                                "./images/HS-hall.png",
+                                "./images/HS/hall.png",
                             "opacity": 1
                         },
 
                         "events": {
-                            "onClick": ["action-loadscene-5", "action-camera-2"]
+                            "onClick": ["action-loadscene-15", "action-camera-2"]
+							
+                        }
+                    }
+                ]
+            },
+                                        
+
+            {
+                "uid": "scene-8",
+                "name": "Eigth Scene",
+                "slug": "eigth-scene",
+                "description": "This is the eigth scene",
+
+                "media": {
+                    "uid": "media-8",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1958/laundry.jpg"
+                    }
+                },
+
+                "hotspots": [
+					{
+						"uid": "hotspot-s8-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": 10,
+                                "phi": -48,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 0
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/hall.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-14", "action-camera-2"]
 							
                         }
                     },
@@ -860,8 +826,8 @@
 
                         "transform": {
                             "position": {
-                                "theta": 180,
-                                "phi": -48,
+                                "theta": 170,
+                                "phi": -54,
                                 "radius": 700
                             },
 
@@ -881,7 +847,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-garage.png",
+                                "./images/HS/garage.png",
                             "opacity": 1
                         },
 
@@ -906,7 +872,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583-garage.jpg"
+                            "./images/1958/garage.jpg"
                     }
                 },
 
@@ -916,8 +882,8 @@
 
                         "transform": {
                             "position": {
-                                "theta": 45,
-                                "phi": -28,
+                                "theta": 30,
+                                "phi": -30,
                                 "radius": 700
                             },
 
@@ -937,7 +903,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-laundry.png",
+                                "./images/HS/laundry.png",
                             "opacity": 1
                         },
 
@@ -962,7 +928,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583-mbed.jpg"
+                            "./images/1958/mbed.jpg"
                     }
                 },
 
@@ -972,8 +938,8 @@
 
                         "transform": {
                             "position": {
-                                "theta": -155,
-                                "phi": -30,
+                                "theta": 135,
+                                "phi": -33,
                                 "radius": 700
                             },
 
@@ -993,7 +959,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-msbath.png",
+                                "./images/HS/msbath.png",
                             "opacity": 1
                         },
 
@@ -1008,14 +974,14 @@
 
                         "transform": {
                             "position": {
-                                "theta": 170,
-                                "phi": -38,
+                                "theta": -135,
+                                "phi": -35,
                                 "radius": 700
                             },
 
                             "rotation": {
                                 "x": 82,
-                                "y": -150
+                                "y": -180
                             }
                         },
 
@@ -1029,12 +995,12 @@
 
                         "material": {
                             "image":
-                                "./images/HS-greatroom.png",
+                                "./images/HS/hall.png",
                             "opacity": 1
                         },
 
                         "events": {
-                            "onClick": ["action-loadscene-7", "action-camera-2"]
+                            "onClick": ["action-loadscene-15", "action-camera-2"]
 							
                         }
 					}
@@ -1054,7 +1020,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583-mbath.jpg"
+                            "./images/1958/mbath.jpg"
                     }
                 },
 
@@ -1065,7 +1031,7 @@
                         "transform": {
                             "position": {
                                 "theta": 5,
-                                "phi": -28,
+                                "phi": -38,
                                 "radius": 700
                             },
 
@@ -1085,7 +1051,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-msbed.png",
+                                "./images/HS/msbed.png",
                             "opacity": 1
                         },
 
@@ -1098,35 +1064,91 @@
             },
             
             {
-                "uid": "scene-12",
-                "name": "Twelfth Scene",
-                "slug": "twelfth-scene",
-                "description": "This is the twelfth scene",
+                "uid": "scene-13",
+                "name": "Thridtenth Scene",
+                "slug": "thridtenth-scene",
+                "description": "This is the thridtenth scene",
 
                 "media": {
-                    "uid": "media-12",
+                    "uid": "media-13",
                     "type": "image",
 
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/street-1.jpg"
+                            "./images/1958/bed-4.jpg"
+                    }
+                },
+
+                "hotspots": [
+                    {
+                        "uid": "hotspot-s13-1",
+
+                        "transform": {
+								"position": {
+                                "theta": 65,
+                                "phi": -45,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 85,
+                                "y": -90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/hall.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-14", "action-camera-2"]
+							
+                        }
+                    }
+                ]
+            },
+
+            {
+                "uid": "scene-14",
+                "name": "Fourtenth Scene",
+                "slug": "fourtenth-scene",
+                "description": "This is the fourtenth scene",
+
+                "media": {
+                    "uid": "media-14",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1958/hall-1.jpg"
                     }
                 },
 
                 "hotspots": [
 					{
-						"uid": "hotspot-s12-1",
+						"uid": "hotspot-s14-1",
 
                         "transform": {
                             "position": {
-                                "theta": 0,
-                                "phi": -60,
-                                "radius": 10
+                                "theta": 23,
+                                "phi": -39,
+                                "radius": 700
                             },
 
                             "rotation": {
-                                "x": 90,
+                                "x": 82,
                                 "y": 0
                             }
                         },
@@ -1134,35 +1156,71 @@
                         "geometry": {
                             "type": "plane",
                             "options": {
-                                "width": 30,
-                                "height": 20
+                                "width": 100,
+                                "height": 100
                             }
                         },
 
                         "material": {
                             "image":
-                                "./images/TOPO.png",
+                                "./images/HS/hall.png",
                             "opacity": 1
                         },
 
                         "events": {
-                            "onClick": ["action-loadscene-1", "action-camera-2"]
+                            "onClick": ["action-loadscene-5", "action-camera-2"]
 							
                         }
                     },
                     
                     {
-						"uid": "hotspot-s12-2",
+						"uid": "hotspot-s14-2",
 
                         "transform": {
                             "position": {
-                                "theta": -82,
-                                "phi": -8,
+                                "theta": -120,
+                                "phi": -48,
                                 "radius": 700
                             },
 
                             "rotation": {
-                                "x": 0,
+                                "x": 82,
+                                "y": 180
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/laundry.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-8", "action-camera-2"]
+							
+                        }
+                    },
+                    
+                    {
+						"uid": "hotspot-s14-3",
+
+                        "transform": {
+                            "position": {
+                                "theta": -90,
+                                "phi": -38,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
                                 "y": 90
                             }
                         },
@@ -1177,15 +1235,199 @@
 
                         "material": {
                             "image":
-                                "./images/doorEnter.png",
+                                "./images/HS/bed4.png",
                             "opacity": 1
                         },
 
                         "events": {
-                            "onClick": ["action-loadscene-1", "action-camera-2"]
+                            "onClick": ["action-loadscene-13", "action-camera-2"]
 							
                         }
 					}
+                ]
+            },
+
+            {
+                "uid": "scene-15",
+                "name": "Fifthtenth Scene",
+                "slug": "fifthtenth-scene",
+                "description": "This is the fifthtenth scene",
+
+                "media": {
+                    "uid": "media-15",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1958/hall-2.jpg"
+                    }
+                },
+
+                "hotspots": [
+					{
+						"uid": "hotspot-s15-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": 5,
+                                "phi": -52,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 0
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/msbed.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-10", "action-camera-2"]
+							
+                        }
+                    },
+                    
+                    {
+						"uid": "hotspot-s15-2",
+
+                        "transform": {
+                            "position": {
+                                "theta": 30,
+                                "phi": -62,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": -90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/powder.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-16", "action-camera-2"]
+							
+                        }
+                    },
+                    
+                    {
+						"uid": "hotspot-s15-3",
+
+                        "transform": {
+                            "position": {
+                                "theta": -90,
+                                "phi": -58,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/greatroom.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-7", "action-camera-2"]
+							
+                        }
+					}
+                ]
+            },
+
+            {
+                "uid": "scene-16",
+                "name": "Sixtenth Scene",
+                "slug": "sixtenth-scene",
+                "description": "This is the sixtenth scene",
+
+                "media": {
+                    "uid": "media-16",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1958/powder.jpg"
+                    }
+                },
+
+                "hotspots": [
+                    {
+                        "uid": "hotspot-s16-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": -90,
+                                "phi": -64,
+                                "radius": 600
+                            },
+
+                            "rotation": {
+                                "x": 85,
+                                "y": 90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/hall.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-15", "action-camera-2"]
+							
+                        }
+                    }                                       
                 ]
             }
         ]
@@ -1249,6 +1491,7 @@
                 "args": ["scene-6"]
             }
         },
+        
         {
             "uid": "action-loadscene-7",
             "target": "viewer.story",
@@ -1305,6 +1548,43 @@
         },
 
         {
+            "uid": "action-loadscene-13",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-13"]
+            }
+        },
+        {
+            "uid": "action-loadscene-14",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-14"]
+            }
+        },
+        {
+            "uid": "action-loadscene-15",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-15"]
+            }
+        },
+        {
+            "uid": "action-loadscene-16",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-16"]
+            }
+        },
+
+        {
             "uid": "action-camera-1",
             "target": "viewer.camera",
 
@@ -1330,7 +1610,7 @@
 
             "method": {
                 "name": "lookAt",
-                "args": [-175, 0, 0]
+                "args": [-59, 0, 0]
             }
         },
 
@@ -1362,7 +1642,25 @@
                 "name": "lookAt",
                 "args": [-178, 0, 0]
             }
-        }
+        },
+        {
+                "uid": "action-dom-1",
+                "target": "viewer.story",
+    
+                "method": {
+                    "name": "load",
+                    "args": ["hotspot-two"]
+                }
+        },
+        {
+            "uid": "action-loadstory-1",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "load",
+                "args": ["config-1583.json"]
+            }
+    }
     ]
 }
 

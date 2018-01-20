@@ -1,3 +1,8 @@
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; zoom: 1.0; min-zoom: 1.0; max-zoom: 1.0; }
+@viewport { width: device-width; zoom: 1.0; min-zoom: 1.0; max-zoom: 1.0; }
+
+
 html, body {
     height: 100%;
     margin: 0;
@@ -21,4 +26,5 @@ button#home {
     top: 50px;
     right: 20px;
 }
+        
 

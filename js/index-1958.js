@@ -1,6 +1,6 @@
 
 // Create a viewer
-var viewer = new FORGE.Viewer("container", "config.json");
+var viewer = new FORGE.Viewer("container", "config-1958.json");
 
 document.getElementById("vr").onclick = function() {
     var el = document.getElementById("vr").firstChild;
@@ -9,7 +9,7 @@ document.getElementById("vr").onclick = function() {
     } else {
         el.data = "Exit VR";
     }
-    viewer.renderer.toggleVR();
+    viewer.renderer.enableVR();
 };
 
 document.getElementById("home").onclick = function(){

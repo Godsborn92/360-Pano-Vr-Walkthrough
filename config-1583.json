@@ -37,7 +37,7 @@
 
                     "source": {
                         "format": "equi",
-                        "url":"./images/1583-entry.jpg"
+                        "url":"./images/1583/entry.jpg"
                     }
                 },
 
@@ -68,7 +68,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-bed3.png",
+                                "./images/HS/bed3.png",
 								
                             "opacity": 1
                         },
@@ -105,7 +105,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-bath2.png",
+                                "./images/HS/bath2.png",
                             "opacity": 1
                         },
 
@@ -141,7 +141,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-bed2.png",
+                                "./images/HS/bed2.png",
                             "opacity": 1
                         },
 
@@ -177,48 +177,12 @@
 
                         "material": {
                             "image":
-                                "./images/HS-hall.png",
+                                "./images/HS/hall.png",
                             "opacity": 1
                         },
 
                         "events": {
                             "onClick": ["action-loadscene-5", "action-camera-2"]
-							
-                        }
-                    },
-
-                    {
-						"uid": "hotspot-s1-5",
-
-                        "transform": {
-                            "position": {
-                                "theta": -163,
-                                "phi": -15,
-                                "radius": 100
-                            },
-
-                            "rotation": {
-                                "x": 0,
-                                "y": -180
-                            }
-                        },
-
-                        "geometry": {
-                            "type": "plane",
-                            "options": {
-                                "width": 80,
-                                "height": 100
-                            }
-                        },
-
-                        "material": {
-                            "image":
-                                "./images/door.png",
-                            "opacity": 1
-                        },
-
-                        "events": {
-                            "onClick": ["action-loadscene-12", "action-camera-2"]
 							
                         }
                     }                                                                            
@@ -238,7 +202,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583-bed-3.jpg"
+                            "./images/1583/bed-3.jpg"
                     }
                 },
 
@@ -269,7 +233,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-entry.png",
+                                "./images/HS/entry.png",
                             "opacity": 1
                         },
 
@@ -294,7 +258,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583-bath-2.jpg"
+                            "./images/1583/bath-2.jpg"
                     }
                 },
 
@@ -325,7 +289,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-entry.png",
+                                "./images/HS/entry.png",
                             "opacity": 1
                         },
 
@@ -350,7 +314,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583-bed-2.jpg"
+                            "./images/1583/bed-2.jpg"
                     }
                 },
 
@@ -381,7 +345,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-entry.png",
+                                "./images/HS/entry.png",
                             "opacity": 1
                         },
 
@@ -406,7 +370,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583-hall.jpg"
+                            "./images/1583/hall.jpg"
                     }
                 },
 
@@ -437,7 +401,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-greatroom.png",
+                                "./images/HS/greatroom.png",
                             "opacity": 1
                         },
 
@@ -473,12 +437,12 @@
 
                         "material": {
                             "image":
-                                "./images/HS-kitchen.png",
+                                "./images/HS/kitchen.png",
                             "opacity": 1
                         },
 
                         "events": {
-                            "onClick": ["action-loadscene-6", "action-camera-1"]
+                            "onClick": ["action-loadscene-6", "action-camera-1", "action-dom-1"]
 							
                         }
                     },
@@ -509,7 +473,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-laundry.png",
+                                "./images/HS/laundry.png",
                             "opacity": 1
                         },
 
@@ -545,7 +509,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-entry.png",
+                                "./images/HS/entry.png",
                             "opacity": 1
                         },
 
@@ -570,7 +534,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583-KIT.jpg"
+                            "./images/1583/KIT.jpg"
                     }
                 },
 
@@ -601,7 +565,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-greatroom.png",
+                                "./images/HS/greatroom.png",
                             "opacity": 1
                         },
 
@@ -637,7 +601,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-hall.png",
+                                "./images/HS/hall.png",
                             "opacity": 1
                         },
 
@@ -648,7 +612,8 @@
                     },
                     
                     {
-                        "uid": "hotspot-dom-two",
+                        "uid": "hotspot-s6-3",
+                        "visible": true,
                         "interactive": true,
                         "type": "dom",
 
@@ -686,7 +651,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583-great-rm.jpg"
+                            "./images/1583/great-rm.jpg"
                     }
                 },
 
@@ -717,7 +682,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-kitchen.png",
+                                "./images/HS/kitchen.png",
                             "opacity": 1
                         },
 
@@ -753,7 +718,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-hall.png",
+                                "./images/HS/hall.png",
                             "opacity": 1
                         },
 
@@ -789,7 +754,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-msbed.png",
+                                "./images/HS/msbed.png",
                             "opacity": 1
                         },
 
@@ -814,7 +779,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583-laundry.jpg"
+                            "./images/1583/laundry.jpg"
                     }
                 },
 
@@ -845,7 +810,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-hall.png",
+                                "./images/HS/hall.png",
                             "opacity": 1
                         },
 
@@ -881,7 +846,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-garage.png",
+                                "./images/HS/garage.png",
                             "opacity": 1
                         },
 
@@ -906,7 +871,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583-garage.jpg"
+                            "./images/1583/garage.jpg"
                     }
                 },
 
@@ -937,7 +902,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-laundry.png",
+                                "./images/HS/laundry.png",
                             "opacity": 1
                         },
 
@@ -962,7 +927,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583-mbed.jpg"
+                            "./images/1583/mbed.jpg"
                     }
                 },
 
@@ -993,7 +958,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-msbath.png",
+                                "./images/HS/msbath.png",
                             "opacity": 1
                         },
 
@@ -1029,7 +994,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-greatroom.png",
+                                "./images/HS/greatroom.png",
                             "opacity": 1
                         },
 
@@ -1054,7 +1019,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583-mbath.jpg"
+                            "./images/1583/mbath.jpg"
                     }
                 },
 
@@ -1085,7 +1050,7 @@
 
                         "material": {
                             "image":
-                                "./images/HS-msbed.png",
+                                "./images/HS/msbed.png",
                             "opacity": 1
                         },
 
@@ -1110,7 +1075,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/street-1.jpg"
+                            "./images/sitePlan/street-1.jpg"
                     }
                 },
 
@@ -1141,7 +1106,7 @@
 
                         "material": {
                             "image":
-                                "./images/TOPO.png",
+                                "./images/sitePlan/TOPO.png",
                             "opacity": 1
                         },
 
@@ -1249,6 +1214,7 @@
                 "args": ["scene-6"]
             }
         },
+        
         {
             "uid": "action-loadscene-7",
             "target": "viewer.story",
@@ -1362,6 +1328,15 @@
                 "name": "lookAt",
                 "args": [-178, 0, 0]
             }
+        },
+        {
+                "uid": "action-dom-1",
+                "target": "viewer.story",
+    
+                "method": {
+                    "name": "load",
+                    "args": ["hotspot-two"]
+                }
         }
     ]
 }
