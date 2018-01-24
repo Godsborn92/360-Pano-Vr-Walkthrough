@@ -2,7 +2,7 @@
 {
     "camera": {
         "fov": {
-            "default": 90,
+            "default": 55,
             "min": 70,
             "max": 110
         },
