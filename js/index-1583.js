@@ -9,7 +9,7 @@ document.getElementById("vr").onclick = function() {
     } else {
         el.data = "Exit VR";
     }
-    viewer.renderer.enableVR();
+    viewer.renderer.ToggleVR();
 };
 
 document.getElementById("home").onclick = function(){
