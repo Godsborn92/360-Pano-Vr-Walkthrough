@@ -1,0 +1,81 @@
+{
+    "uid": "org.forgejs.accelerometer",
+    "name": "Accelerometer",
+    "shortName": "accelero",
+    "version": "1.0.0",
+    "versionName": "Accelerometer 1.0.0",
+    "description": "Display a simple Accelerometer that can be loaded with the metadata from a GoPro.",
+
+    "author":
+    {
+        "name": "GoPro",
+        "website": "https://forgejs.org"
+    },
+
+    "licence": "Apache-2.0",
+
+    "viewer":
+    {
+        "min": "0.9.5",
+        "max": "0.9.5"
+    },
+
+    "options":
+    {
+        "width": 128,
+        "height": 128,
+
+        "top": null,
+        "left": null,
+        "right": null,
+        "bottom": null,
+
+        "source": "media",
+        "visible": true,
+
+        "arc":
+        {
+            "color": "rgba(0, 0, 0, 0.3)",
+            "width": 6
+        },
+
+        "point":
+        {
+            "color": "#009FDF",
+            "outline": "#009FDF",
+            "size": 15
+        },
+
+        "trail":
+        {
+            "color": "#017FAA",
+            "size": 10,
+            "length": 50
+        },
+
+        "value":
+        {
+            "color": "white",
+            "outline": "black",
+            "font": null,
+            "fontFamily": "dosisbold, sans-serif",
+            "fontSize": "20px",
+            "fontStyle": "normal",
+            "fontVariant": "normal",
+            "fontWeight": "normal"
+        }
+    },
+
+    "data":
+    {
+        "json": ""
+    },
+
+    "sources":
+    [
+        "src/style.css",
+        "src/Accelerometer.js"
+    ],
+
+    "constructor": "ForgePlugins.Accelerometer"
+}
