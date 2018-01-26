@@ -16,15 +16,15 @@ div#container {
     height: 100%;
 }
 
-button#vr {
+button#home {
     position: absolute;
     top: 20px;
     right: 20px;
 }
-button#home {
+/*button#vr {
     position: absolute;
     top: 50px;
     right: 20px;
 }
-        
+*/        
 
