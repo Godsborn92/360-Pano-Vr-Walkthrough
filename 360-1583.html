@@ -54,13 +54,28 @@
 </div>
 -->
 
-
+<!-- Include the threejs custom build -->
 <script src='lib/three.js/three.custom.min.js'></script>
+
+<!-- Include the Hammer.js library -->
 <script src='lib/hammer.js/hammer.min.js'></script>
+
+<!-- Include the ForgeJS library -->
 <script src='lib/forge/forge.min.js'></script>
+
+<!-- Include the Polyfill Library -->
 <script src='js/webvr-polyfill.js'></script>
 
-    <script  src="js/index-1583.js"></script>
+<!-- Include Universal Control JS -->
+<script  src="js/index-1583.js"></script>
+
+<!-- Start ForgeJS -->
+<script type="text/javascript">
+// Create a viewer
+var viewer = new FORGE.Viewer("container", "config-1583.json");
+</script>
+
+
 
 </body>
 </html>
