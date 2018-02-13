@@ -43,8 +43,8 @@
                 "options":{
                     "fullscreen":"true",
                     "orientation":{
-                        "drag":"true",
-                        "hardness":2,
+                        "drag":"false",
+                        "hardness":2.5,
                         "damping":0.15,
                         "velocityMax":300,
                         "invert":{}
@@ -312,7 +312,7 @@
                         },
 
                         "events": {
-                            "onClick": ["action-loadscene-5", "action-camera-2"]
+                            "onClick": ["action-loadscene-7", "action-camera-2"]
 							
                         }
                     },
@@ -498,98 +498,6 @@
 							
                         }
 					}
-                ]
-            },
-           
-            {
-                "uid": "scene-5",
-                "name": "Fifth Scene",
-                "slug": "fifth-scene",
-                "description": "This is the fifth scene",
-
-                "media": {
-                    "uid": "media-5",
-                    "type": "image",
-
-                    "source": {
-                        "format": "equi",
-                        "url":
-                            "./images/1832/great-rm.jpg"
-                    }
-                },
-
-                "hotspots": [
-					{
-						"uid": "hotspot-s5-1",
-
-                        "transform": {
-                            "position": {
-                                "theta": -65,
-                                "phi": -38,
-                                "radius": 700
-                            },
-
-                            "rotation": {
-                                "x": 82,
-                                "y": 0
-                            }
-                        },
-
-                        "geometry": {
-                            "type": "plane",
-                            "options": {
-                                "width": 100,
-                                "height": 100
-                            }
-                        },
-
-                        "material": {
-                            "image":
-                                "./images/HS/greatroom.png",
-                            "opacity": 1
-                        },
-
-                        "events": {
-                            "onClick": ["action-loadscene-7", "action-camera-2"]
-							
-                        }
-                    },
-                    
-                    {
-						"uid": "hotspot-s5-2",
-
-                        "transform": {
-                            "position": {
-                                "theta": -156,
-                                "phi": -37,
-                                "radius": 700
-                            },
-
-                            "rotation": {
-                                "x": 82,
-                                "y": 0
-                            }
-                        },
-
-                        "geometry": {
-                            "type": "plane",
-                            "options": {
-                                "width": 100,
-                                "height": 100
-                            }
-                        },
-
-                        "material": {
-                            "image":
-                                "./images/HS/hall.png",
-                            "opacity": 1
-                        },
-
-                        "events": {
-                            "onClick": ["action-loadscene-14", "action-camera-2"]
-							
-                        }
-                    }
                 ]
             },
 
