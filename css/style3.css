@@ -116,8 +116,19 @@ color:#4242f4;
   margin:auto;
 }
 
+.slideshow-container2{
+  max-width:1000px;
+  position:relative;
+  margin:auto;
+}
+
 /* Hide the images by default */
 .mySlides{
+  display:none;
+}
+
+/* Hide the images by default */
+.mySlides2{
   display:none;
 }
 
@@ -136,14 +147,37 @@ color:#4242f4;
   border-radius: 0 3px 3px 0;
 }
 
+.prevTwo, .nextTwo {
+  cursor: pointer;
+  position: absolute;
+  top:50%;
+  width: auto;
+  margin-top: -22px;
+  padding:16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
 /*Postion the "next button" to the right */
 .next{
   right:0;
   border-radius: 3px 0 0 3px;
 }
 
+.nextTwo{
+  right:0;
+  border-radius: 3px 0 0 3px;
+}
+
 /* On hover, add a background color with a little bit see-through */
 .prev:hover, next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.prevTwo:hover, .nextTwo:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
@@ -169,6 +203,18 @@ color:#4242f4;
 
 /* The dots/bullets/indicators */
 .dot{
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* The dots/bullets/indicators */
+.circle{
   cursor: pointer;
   height: 15px;
   width: 15px;

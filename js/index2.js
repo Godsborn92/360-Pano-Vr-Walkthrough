@@ -38,8 +38,8 @@ if (!event.target.matches('.dropbtn')) {
     var openDropdown = dropdowns[i];
     if (openDropdown.classList.contains('show')) {
       openDropdown.classList.remove('show');
+      }
+     }
     }
   }
-}
-}
     
