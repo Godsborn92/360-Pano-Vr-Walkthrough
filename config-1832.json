@@ -16,6 +16,43 @@
             }
             }
     },
+
+    "controllers":{
+        "enabled":"true",
+        "instances":[
+            {
+                "uid":"controller-0",
+                "type":"pointer",
+                "enabled": "true",
+                "options":{
+                    "fullscreen":"true",
+                    "orientation":{
+                        "drag":"false",
+                        "hardness": 2,
+                        "damping": 0.15,
+                        "velocityMax": 300,
+                        "invert":{}
+
+                    }
+                }
+            },
+            {
+                "uid":"controller-1",
+                "type":"gyroscope",
+                "enabled":"true",
+                "options":{
+                    "fullscreen":"true",
+                    "orientation":{
+                        "drag":"true",
+                        "hardness":2,
+                        "damping":0.15,
+                        "velocityMax":300,
+                        "invert":{}
+                    }
+                }
+            }
+        ]
+    },
     
 
     "story": {
