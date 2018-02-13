@@ -28,7 +28,7 @@
                     "fullscreen":"true",
                     "orientation":{
                         "drag":"false",
-                        "hardness": 2,
+                        "hardness": 1.1,
                         "damping": 0.15,
                         "velocityMax": 300,
                         "invert":{}
