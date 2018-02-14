@@ -1,0 +1,35 @@
+{
+    "uid": "org.forgejs.videocontrols",
+    "name": "Video Controls",
+    "slug": "videocontrols",
+    "version": "1.0.0",
+    "description": "Add video controls UI on a 360 video scene",
+
+    "author":
+    {
+        "name": "GoPro",
+        "website": "https://forgejs.org"
+    },
+
+    "licence": "Apache 2",
+
+    "viewer":
+    {
+        "min": "0.9.0",
+        "max": "0.9.5"
+    },
+
+    "options":
+    {
+        "poster": null,
+        "splashColor": "black"
+    },
+
+    "sources":
+    [
+        "src/style.css",
+        "src/VideoControls.js"
+    ],
+
+    "constructor": "ForgePlugins.VideoControls"
+}

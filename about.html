@@ -1,32 +1,62 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html>
 <head>
   <meta charset="UTF-8">
   <meta name="description" content="RSI HMR Affordable Housing">
   <meta name="keywords" content="RSI,HMR,Affordable,Housing">
   <meta name="author" content="Jacob Carr">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>HMR About Us</title>
+  <title>RSI About Us</title>
   
   
   
-      <link type="text/css" rel="stylesheet" href="css/style2.css">
-
-  
+      <link type="text/css" rel="stylesheet" href="css/style3.css">
+	  
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700' rel='stylesheet' type='text/css'>  
 </head>
 
 <body>
 <div class="wrapper">
   <div class="box header">
-  <h1>HMR TOUR</h1>
-  <h2>About US</h2>
-  <p><em>"Webpage for RSI Development's Affordable Housing"</em></p>
+
+  <div class="headerStyle">
+  <h1>RSI BUILDING SOLUTIONS</h1>  
+  <p><em>"Template Web page for RSI Building Solution's Attainable Housing Market"</em></p>
+  </div>
+  <div class="social">
+  <a href="#" class="Smedia"><i class="fa fa-facebook-official"></i></a>
+  <a href="#" class="Smedia"><i class="fa fa-linkedin"></i></a>
+</div>
   </div>
   <div class="box sidebar">
-  <a href="index.html"class="button">Home</a><br /><br />
-  <a href="360.html"target="_blank"class="button">360 Viewing Tour</a><br /><br />
-  <a href="about.html"class = "button">About</a></br></br>
-  <a href="contact.html"class = "button">Contact</a>
+  <a href="index.html" class="button"><i class="fa fa-home fa-fw"></i> Home</a><br /><br />
+  <!--This is the dropdown method for a link-->
+  <div class="dropdown">
+    <button onclick="dropDownList1()" class="dropbtn"><i class="fa fa-camera fa-fw"></i>360 Viewer</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="360-1583.html">1583</a>
+      <a href="360-1958.html">1958</a>
+      <a href="360-1832.html">1832</a>
+      <!--Display link later
+        <a href="#">Link 3</a>
+      -->
+      </div>
+    </div></br>
+      <div class="dropdown">
+      <button onclick="dropDownList2()" class="dropbtn"><i class="fa fa-camera fa-fw"></i>Floor Plans</button>
+      <div id="myDropdown2" class="dropdown-content">
+          <a href="1583-floorplan.html">1583</a>
+          <a href="1958-floorplan.html">1958</a>
+          <a href="1832-floorplan.html">1832</a>
+        </div>
+      </div></br>
+    
+    <!--This is the old 360 button before the dropdown link-->
+  <!--<a href="360.html" class="button"><i class="fa fa-camera fa-fw"></i> 360 Viewer</a><br /><br />-->
+  <a href="about.html" class="button"><i class="fa fa-handshake-o fa-fw"></i> About</a></br></br>
+  <a href="contact.html" class="button"><i class="fa fa-address-book-o fa-fw"></i> Contact</a>
   
   </div>
   <div class="box content"><h3>About Us</h3>
@@ -39,9 +69,9 @@
 
 
 <img src="https://media.glassdoor.com/sqll/295660/rsi-home-products-squarelogo.png" alt="RSI Logo" class="bottomright" /></div>
-  <div class="box footer">This is a project by Jacob Carr. This site and it's Images are Property of <em>RSI Development</em>.<br />Copyright 2017 <strong>RSI,LLC ALL RIGHTS REVESERVED</strong>.</div>
+  <div class="box footer"><div class="footnav"><h5>This is a project by Jacob Carr. This site and its Images are Property of <em>RSI BUILDING SOLUTIONS</em>.<br /><wbr></br>&copy; 2017</wbr> <strong><wbr>RSI, LLC</wbr> <wbr>ALL RIGHTS RESERVED</wbr></h5></strong>.</div>
 </div>
-
+<script  src="js/index2.js"></script>
 </body>
 </html>
 

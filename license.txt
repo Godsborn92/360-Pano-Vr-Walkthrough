@@ -1,7 +1,7 @@
 
 
 <!--
-Copyright (c) 2017 by Jacob Carr (https://codepen.io/Godsborn92/pen/JMGQEW)
+Copyright (c) 2017 by J Carr (RSI Building Soltuions) Web Developer (https://codepen.io/Godsborn92/pen/JMGQEW)
 
 
 Fork of an original work by forgejs (https://codepen.io/forgejs/pen/apEwBy)

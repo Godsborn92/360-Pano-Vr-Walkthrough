@@ -1,0 +1,1986 @@
+
+{
+    "camera": {
+        "fov": {
+            "default": 55,
+            "min": 70,
+            "max": 110
+        },
+    "gaze":{
+            "delay":2000,
+            "cursor":{
+                "innerRadius":0.02,
+                "outerRadius":0.04,
+                "color":"#ff645d",
+                "opacity":0.5
+            }
+            }
+    },
+
+    "controllers":{
+        "enabled":"true",
+        "instances":[
+            {
+                "uid":"controller-0",
+                "type":"pointer",
+                "enabled": "true",
+                "options":{
+                    "fullscreen":"true",
+                    "orientation":{
+                        "drag":"false",
+                        "hardness": 1.1,
+                        "damping": 0.15,
+                        "velocityMax": 300,
+                        "invert":{}
+
+                    }
+                }
+            },
+            {
+                "uid":"controller-1",
+                "type":"gyroscope",
+                "enabled":"true",
+                "options":{
+                    "fullscreen":"true",
+                    "orientation":{
+                        "drag":"false",
+                        "hardness":2.5,
+                        "damping":0.15,
+                        "velocityMax":300,
+                        "invert":{}
+                    }
+                }
+            }
+        ]
+    },
+    
+
+    "story": {
+        "uid": "hotspots-actions-story",
+        "name": "Hotspots with actions Story",
+        "slug": "hotspots-actions-story",
+        "description": "This is sample of hotspots actions",
+
+        "scenes": [
+            {
+                "uid": "scene-1",
+                "name": "First Scene",
+                "slug": "first-scene",
+                "description": "This is the first scene",
+
+                "media": {
+                    "uid": "media-1",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":"./images/1832/entry.jpg"
+                    }
+                },
+                "camera": {
+                    "pitch": {"default": -18},
+                    "yaw":   {"default": -89}
+                },
+
+                "hotspots": [
+                     {
+                        "uid": "hotspot-s1-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": -94,
+                                "phi": -48,
+                                "radius": 600
+                            },
+
+                            "rotation": {
+                                "x": 85,
+                                "y": 90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/kitchen.png",
+								
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-2", "action-camera-2"]
+							
+                        }
+                    },
+
+                    {
+                        "uid": "hotspot-s1-2",
+
+                        "transform": {
+                            "position": {
+                                "theta": 20,
+                                "phi": -66,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 0
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 150,
+                                "height": 150
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/powder.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-3", "action-camera-1"]
+							
+                        }
+                    }                                                                          
+                ]
+            },
+
+            {
+                "uid": "scene-2",
+                "name": "Second Scene",
+                "slug": "second-scene",
+                "description": "This is the second scene",
+
+                "media": {
+                    "uid": "media-2",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1832/kitchen.jpg"
+                    }
+                },
+
+                "hotspots": [
+                    {
+                        "uid": "hotspot-s2-1",
+
+                        "transform": {
+								"position": {
+                                "theta": 83,
+                                "phi": -45,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 85,
+                                "y": -90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/entry.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-1", "action-camera-2"]
+							
+                        }
+                    },
+                    {
+                        "uid": "hotspot-s2-2",
+
+                        "transform": {
+								"position": {
+                                "theta": 73,
+                                "phi": -28,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 85,
+                                "y": 0
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/powder.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-3", "action-camera-2"]
+							
+                        }
+                    },
+                    {
+                        "uid": "hotspot-s2-3",
+
+                        "transform": {
+								"position": {
+                                "theta": 122,
+                                "phi": -45,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 85,
+                                "y": 180
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/garage.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-4", "action-camera-2"]
+							
+                        }
+                    },
+                    {
+                        "uid": "hotspot-s2-4",
+
+                        "transform": {
+								"position": {
+                                "theta": 6,
+                                "phi": -18,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 85,
+                                "y": 0
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/greatroom.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-7", "action-camera-2"]
+							
+                        }
+                    },
+                    {
+                        "uid": "hotspot-s2-5",
+
+                        "transform": {
+								"position": {
+                                "theta": 0,
+                                "phi": -26,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 85,
+                                "y": 90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/dining.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-6", "action-camera-2"]
+							
+                        }
+                    },
+                    {
+                        "uid": "hotspot-s2-6",
+
+                        "transform": {
+								"position": {
+                                "theta": 20,
+                                "phi": -26,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 85,
+                                "y": -90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/hall.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-8", "action-camera-2"]
+							
+                        }
+                    }
+                ]
+            },
+
+            {
+                "uid": "scene-3",
+                "name": "Third Scene",
+                "slug": "third-scene",
+                "description": "This is the third scene",
+
+                "media": {
+                    "uid": "media-3",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1832/powder.jpg"
+                    }
+                },
+
+                "hotspots": [
+                    {
+                        "uid": "hotspot-s3-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": -169,
+                                "phi": -68,
+                                "radius": 600
+                            },
+
+                            "rotation": {
+                                "x": 85,
+                                "y": 180
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/entry.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-1", "action-camera-2"]
+							
+                        }
+                    }                                       
+                ]
+            },
+
+            {
+                "uid": "scene-4",
+                "name": "Forth Scene",
+                "slug": "forth-scene",
+                "description": "This is the forth scene",
+
+                "media": {
+                    "uid": "media-4",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1832/garage.jpg"
+                    }
+                },
+
+                "hotspots": [
+					{
+						"uid": "hotspot-s4-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": 45,
+                                "phi": -28,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 0
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/kitchen.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-2", "action-camera-2"]
+							
+                        }
+					}
+                ]
+            },
+
+            {
+                "uid": "scene-6",
+                "name": "Sixth Scene",
+                "slug": "Sixth-scene",
+                "description": "This is the sixth scene",
+
+                "media": {
+                    "uid": "media-6",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1832/dining.jpg"
+                    }
+                },
+
+                "hotspots": [
+					{
+						"uid": "hotspot-s6-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": 30,
+                                "phi": -42,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 0
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/greatroom.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-7", "action-camera-2"]
+							
+                        }
+                    },
+                    
+                    {
+						"uid": "hotspot-s6-2",
+
+                        "transform": {
+                            "position": {
+                                "theta": 85,
+                                "phi": -45,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": -90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/hall.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-8", "action-camera-2"]
+							
+                        }
+                    },
+
+                    {
+						"uid": "hotspot-s6-3",
+
+                        "transform": {
+                            "position": {
+                                "theta": 140,
+                                "phi": -42,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 180
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/kitchen.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-2", "action-camera-2"]
+							
+                        }
+                    },
+                    
+                    {
+                        "uid": "hotspot-s6-4",
+                        "visible": true,
+                        "interactive": true,
+                        "type": "dom",
+
+                        "dom":
+                        {
+                            "id": "hotspot-two",
+                            "width": "5em",
+                            "height": "5em",
+                            "color": "transparent",
+                            "index": 2,
+                            "class": [ "media-style__pin", "content-style__above"]
+                        },
+
+                        "transform":
+                        {
+                            "position": {
+                                "theta": 180,
+                                "phi": 0
+                            }
+                        }
+                    }
+                ]
+            },
+
+            {
+                "uid": "scene-7",
+                "name": "Seventh Scene",
+                "slug": "Seventh-scene",
+                "description": "This is the seventh scene",
+
+                "media": {
+                    "uid": "media-7",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1832/great-rm.jpg"
+                    }
+                },
+
+                "hotspots": [
+					{
+						"uid": "hotspot-s7-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": -140,
+                                "phi": -38,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 180
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/dining.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-6", "action-camera-1"]
+							
+                        }
+                    }
+                ]
+            },
+                                        
+
+            {
+                "uid": "scene-8",
+                "name": "Eigth Scene",
+                "slug": "eigth-scene",
+                "description": "This is the eigth scene",
+
+                "media": {
+                    "uid": "media-8",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1832/hall-up.jpg"
+                    }
+                },
+
+                "hotspots": [
+					{
+						"uid": "hotspot-s8-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": 90,
+                                "phi": -48,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 180
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/dining.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-6", "action-camera-2"]
+							
+                        }
+                    },
+                    
+                    {
+						"uid": "hotspot-s8-2",
+
+                        "transform": {
+                            "position": {
+                                "theta": -175,
+                                "phi": -27,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 180
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/bed2.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-9", "action-camera-2"]
+							
+                        }
+                    },
+                    {
+						"uid": "hotspot-s8-3",
+
+                        "transform": {
+                            "position": {
+                                "theta": -153,
+                                "phi": -25,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 180
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/bed3.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-10", "action-camera-2"]
+							
+                        }
+                    },
+                    {
+						"uid": "hotspot-s8-4",
+
+                        "transform": {
+                            "position": {
+                                "theta": -153,
+                                "phi": -38,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/hall.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-13", "action-camera-2"]
+							
+                        }
+                    },
+                    {
+						"uid": "hotspot-s8-5",
+
+                        "transform": {
+                            "position": {
+                                "theta": -45,
+                                "phi": -38,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/msbed.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-11", "action-camera-2"]
+							
+                        }
+					}
+                ]
+            },
+
+            {
+                "uid": "scene-9",
+                "name": "Ninth Scene",
+                "slug": "ninth-scene",
+                "description": "This is the ninth scene",
+
+                "media": {
+                    "uid": "media-9",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1832/bed-2.jpg"
+                    }
+                },
+
+                "hotspots": [
+					{
+						"uid": "hotspot-s9-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": -32,
+                                "phi": -40,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 0
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/hall.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-8", "action-camera-2"]
+							
+                        }
+					}
+                ]
+            },
+
+            {
+                "uid": "scene-10",
+                "name": "Tenth Scene",
+                "slug": "tenth-scene",
+                "description": "This is the tenth scene",
+
+                "media": {
+                    "uid": "media-10",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1832/bed-3.jpg"
+                    }
+                },
+
+                "hotspots": [
+					{
+						"uid": "hotspot-s10-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": 40,
+                                "phi": -46,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 0
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/hall.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-13", "action-camera-2"]
+							
+                        }
+                    }
+                ]
+            },
+
+            {
+                "uid": "scene-11",
+                "name": "Eleventh Scene",
+                "slug": "eleventh-scene",
+                "description": "This is the eleventh scene",
+
+                "media": {
+                    "uid": "media-11",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1832/mbed.jpg"
+                    }
+                },
+
+                "hotspots": [
+					{
+						"uid": "hotspot-s11-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": 60,
+                                "phi": -55,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": -90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/msbath.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-12", "action-camera-2"]
+							
+                        }
+                    },
+                    {
+						"uid": "hotspot-s11-2",
+
+                        "transform": {
+                            "position": {
+                                "theta": 145,
+                                "phi": -46,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": -90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/hall.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-8", "action-camera-2"]
+							
+                        }
+					}
+                ]
+            },
+
+            {
+                "uid": "scene-12",
+                "name": "Twelveth Scene",
+                "slug": "twelveth-scene",
+                "description": "This is the twelveth scene",
+
+                "media": {
+                    "uid": "media-12",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1832/mbath.jpg"
+                    }
+                },
+
+                "hotspots": [
+					{
+						"uid": "hotspot-s12-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": -85,
+                                "phi": -38,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/msbed.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-11", "action-camera-2"]
+							
+                        }
+					}
+                ]
+            },
+            
+            {
+                "uid": "scene-13",
+                "name": "Thridtenth Scene",
+                "slug": "thridtenth-scene",
+                "description": "This is the thridtenth scene",
+
+                "media": {
+                    "uid": "media-13",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1832/hall-2.jpg"
+                    }
+                },
+
+                "hotspots": [
+                    {
+                        "uid": "hotspot-s13-1",
+
+                        "transform": {
+								"position": {
+                                "theta": 105,
+                                "phi": -40,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 85,
+                                "y": 180
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/bed2.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-9", "action-camera-2"]
+							
+                        }
+                    },
+                    {
+                        "uid": "hotspot-s13-2",
+
+                        "transform": {
+								"position": {
+                                "theta": 135,
+                                "phi": -62,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 85,
+                                "y": 180
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/bed3.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-10", "action-camera-2"]
+							
+                        }
+                    },
+                    {
+                        "uid": "hotspot-s13-3",
+
+                        "transform": {
+								"position": {
+                                "theta": 10,
+                                "phi": -74,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 85,
+                                "y": 0
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/laundry.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-15", "action-camera-2"]
+							
+                        }
+                    },
+                    {
+                        "uid": "hotspot-s13-4",
+
+                        "transform": {
+								"position": {
+                                "theta": -90,
+                                "phi": -72,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 85,
+                                "y": 90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/bath2.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-14", "action-camera-2"]
+							
+                        }
+                    },
+                    {
+                        "uid": "hotspot-s13-5",
+
+                        "transform": {
+								"position": {
+                                "theta": 68,
+                                "phi": -40,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 85,
+                                "y": 0
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/hall.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-8", "action-camera-2"]
+							
+                        }
+                    }
+                ]
+            },
+
+            {
+                "uid": "scene-14",
+                "name": "Fourtenth Scene",
+                "slug": "fourtenth-scene",
+                "description": "This is the fourtenth scene",
+
+                "media": {
+                    "uid": "media-14",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1832/bath-2.jpg"
+                    }
+                },
+
+                "hotspots": [
+					{
+						"uid": "hotspot-s14-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": 103,
+                                "phi": -56,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": -90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/hall.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-13", "action-camera-2"]
+							
+                        }
+                    },
+                    {
+						"uid": "hotspot-s14-2",
+
+                        "transform": {
+                            "position": {
+                                "theta": 85,
+                                "phi": -46,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 0
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/laundry.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-15", "action-camera-2"]
+							
+                        }
+                    },
+                    {
+						"uid": "hotspot-s14-3",
+
+                        "transform": {
+                            "position": {
+                                "theta": 110,
+                                "phi": -36,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 180
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/bed3.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-10", "action-camera-2"]
+							
+                        }
+                    },
+                    {
+						"uid": "hotspot-s14-4",
+
+                        "transform": {
+                            "position": {
+                                "theta": 100,
+                                "phi": -26,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 180
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/bed2.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-9", "action-camera-2"]
+							
+                        }
+                    }
+                ]
+            },
+
+            {
+                "uid": "scene-15",
+                "name": "Fifthtenth Scene",
+                "slug": "fifthtenth-scene",
+                "description": "This is the fifthtenth scene",
+
+                "media": {
+                    "uid": "media-15",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1832/laundry.jpg"
+                    }
+                },
+
+                "hotspots": [
+					{
+						"uid": "hotspot-s15-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": 178,
+                                "phi": -62,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 180
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/hall.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-13", "action-camera-2"]
+							
+                        }
+                    },
+                    {
+						"uid": "hotspot-s15-2",
+
+                        "transform": {
+                            "position": {
+                                "theta": 162,
+                                "phi": -42,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 180
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/bed3.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-10", "action-camera-2"]
+							
+                        }
+                    },
+                    {
+						"uid": "hotspot-s15-3",
+
+                        "transform": {
+                            "position": {
+                                "theta": -167,
+                                "phi": -50,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/bath2.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-14", "action-camera-2"]
+							
+                        }
+                    }
+                ]
+            },
+
+            {
+                "uid": "scene-16",
+                "name": "Sixtenth Scene",
+                "slug": "sixtenth-scene",
+                "description": "This is the sixtenth scene",
+
+                "media": {
+                    "uid": "media-16",
+                    "type": "image",
+
+                    "source": {
+                        "format": "equi",
+                        "url":
+                            "./images/1832/powder.jpg"
+                    }
+                },
+
+                "hotspots": [
+                    {
+                        "uid": "hotspot-s16-1",
+
+                        "transform": {
+                            "position": {
+                                "theta": -90,
+                                "phi": -64,
+                                "radius": 600
+                            },
+
+                            "rotation": {
+                                "x": 85,
+                                "y": 90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/hall.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-15", "action-camera-2"]
+							
+                        }
+                    }                                       
+                ]
+            }
+        ]
+    },	
+
+    "actions": [
+        {
+            "uid": "action-loadscene-1",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-1"]
+            }
+        },
+
+        {
+            "uid": "action-loadscene-2",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-2"]
+            }
+        },
+
+        {
+            "uid": "action-loadscene-3",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-3"]
+            }
+        },
+
+        {
+            "uid": "action-loadscene-4",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-4"]
+            }
+        },
+        {
+            "uid": "action-loadscene-5",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-5"]
+            }
+        },
+        {
+            "uid": "action-loadscene-6",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-6"]
+            }
+        },
+        
+        {
+            "uid": "action-loadscene-7",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-7"]
+            }
+        },
+        {
+            "uid": "action-loadscene-8",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-8"]
+            }
+        },
+        {
+            "uid": "action-loadscene-9",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-9"]
+            }
+        },
+        {
+            "uid": "action-loadscene-10",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-10"]
+            }
+        },
+        {
+            "uid": "action-loadscene-11",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-11"]
+            }
+        },
+        {
+            "uid": "action-loadscene-12",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-12"]
+            }
+        },
+
+        {
+            "uid": "action-loadscene-13",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-13"]
+            }
+        },
+        {
+            "uid": "action-loadscene-14",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-14"]
+            }
+        },
+        {
+            "uid": "action-loadscene-15",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-15"]
+            }
+        },
+        {
+            "uid": "action-loadscene-16",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "loadScene",
+                "args": ["scene-16"]
+            }
+        },
+
+        {
+            "uid": "action-camera-1",
+            "target": "viewer.camera",
+
+            "method": {
+                "name": "lookAt",
+                "args": [125, 0, 0]
+            }
+        },
+
+        {
+            "uid": "action-camera-2",
+            "target": "viewer.camera",
+
+            "method": {
+                "name": "lookAt",
+                "args": [2, 0, 0]
+            }
+        },
+
+        {
+            "uid": "action-camera-3",
+            "target": "viewer.camera",
+
+            "method": {
+                "name": "lookAt",
+                "args": [-59, 0, 0]
+            }
+        },
+
+        {
+            "uid": "action-camera-4",
+            "target": "viewer.camera",
+
+            "method": {
+                "name": "lookAt",
+                "args": [0, 0, 0]
+            }
+        },
+
+        {
+            "uid": "action-camera-5",
+            "target": "viewer.camera",
+
+            "method": {
+                "name": "lookAt",
+                "args": [178, 0, 0]
+            }
+        },
+
+        {
+            "uid": "action-camera-6",
+            "target": "viewer.camera",
+
+            "method": {
+                "name": "lookAt",
+                "args": [-178, 0, 0]
+            }
+        },
+        {
+                "uid": "action-dom-1",
+                "target": "viewer.story",
+    
+                "method": {
+                    "name": "load",
+                    "args": ["hotspot-two"]
+                }
+        },
+        {
+            "uid": "action-loadstory-1",
+            "target": "viewer.story",
+
+            "method": {
+                "name": "load",
+                "args": ["config-1583.json"]
+            }
+    }
+    ],
+
+    "plugins":
+    {
+        "prefix": "plugins/",
+
+        "engines":
+        [
+            {
+                "uid": "org.forgejs.webvrbutton",
+                "url": "WebVRButton/"
+            },
+
+            {
+                "uid": "org.forgejs.gyroscopebutton",
+                "url": "GyroscopeButton/"
+            }
+        ],
+
+        "instances":
+        [
+            {
+                "uid": "webvrbutton",
+                "engine": "org.forgejs.webvrbutton",
+
+                "options":
+                {
+                    "bottom": 10,
+                    "right": 10
+                }
+            },
+
+            {
+                "uid": "gyrobutton",
+                "engine": "org.forgejs.gyroscopebutton",
+
+                "options":
+                {
+                    "bottom": 10,
+                    "left": 10
+                }
+            }
+        ]
+    }
+}
+
+
+
