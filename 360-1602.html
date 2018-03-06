@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="RSI, Inc.">
@@ -7,33 +8,39 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta http-equiv="x-ua-compatible" content="IE=edge" />
-  <title>VR</title>
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, user-scalable=no" />
-  
-       <!-- CSS libraries -->
-      <link rel="stylesheet" href="css/normalize.min.css">
-      <link rel="stylesheet" href="css/main.css">
-      <link rel="stylesheet" href="css/style.css">
+    <title>VR</title>
 
-  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, user-scalable=no" />
+
+    <!-- CSS libraries -->
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
 </head>
 
 <body>
-  <div id="container"></div>
-<!-- Incorporate For Later Use
+    <div id="container"></div>
+    <!-- Incorporate For Later Use-->
     <div>
     <button id="vr">Enter VR</button>
     </div>
--->
-<div><button id="home">Home</button></div>
-<div class="map" hidden>
-    <p>1602 Floor Plan<img src="images/1602/1583.jpg" alt="1602 FLoor Plan">
-    <div id="redDotEntry" class="circle red" hidden></div>
-    </p>
-</div>
 
-<!--
+    <div>
+        <button id="home">Home</button>
+    </div>
+    <div>
+        <button id="floorplan" onclick="displayFloorPlan()" hidden>Floor Plan</button>
+    </div>
+    <div class="map" hidden>
+        <p>1602 Floor Plan
+            <img src="images/1602/1583.jpg" alt="1602 FLoor Plan">
+            <div id="redDotEntry" class="circle red" hidden></div>
+        </p>
+    </div>
+
+    <!--
     <div id="hotspot-two" class="hotspot">
   <div class="hotspot-zone">
       (Toggle)
@@ -59,28 +66,29 @@
 </div>
 -->
 
-<!-- Include the threejs custom build -->
-<script src='lib/three.js/three.custom.min.js'></script>
+    <!-- Include Universal Control JS -->
+    <script src="js/index.js"></script>
 
-<!-- Include the Hammer.js library -->
-<script src='lib/hammer.js/hammer.min.js'></script>
+    <!-- Include the threejs custom build -->
+    <script src='lib/three.js/three.custom.min.js'></script>
 
-<!-- Include the ForgeJS library -->
-<script src='lib/forge/forge.min.js'></script>
+    <!-- Include the Hammer.js library -->
+    <script src='lib/hammer.js/hammer.min.js'></script>
 
-<!-- Include the Polyfill Library -->
-<script src='js/webvr-polyfill.js'></script>
+    <!-- Include the ForgeJS library -->
+    <script src='lib/forge/forge.min.js'></script>
 
-<!-- Include Universal Control JS -->
-<script  src="js/index.js"></script>
+    <!-- Include the Polyfill Library -->
+    <script src='js/webvr-polyfill.js'></script>
 
-<!-- Start ForgeJS -->
-<script type="text/javascript">
-// Create a viewer
-var viewer = new FORGE.Viewer("container", "config-1602.json");
-</script>
+    <!-- Start ForgeJS -->
+    <script type="text/javascript">
+        // Create a viewer
+        var viewer = new FORGE.Viewer("container", "config-1602.json");
+    </script>
 
 
 
 </body>
+
 </html>
