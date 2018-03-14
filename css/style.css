@@ -21,10 +21,73 @@ button#home {
     top: 20px;
     right: 20px;
 }
-/*button#vr {
+button#floorplan {
     position: absolute;
     top: 50px;
     right: 20px;
 }
-*/        
+    
 
+p{
+    margin: 0;
+}
+
+div.map{
+    text-align: center;
+    color: black;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    border: 1px solid black;
+    max-width: 195px;
+    max-height: 250px;
+    background-color: white;
+}
+
+div.map p{
+    max-width: 195px;
+    max-height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.map img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    width: 100%;
+    height: auto;
+
+}
+
+@keyframes up-right {
+    0% {<!--from w w w .  j  a va 2  s. c  o m-->
+        transform: scale(1);
+        opacity: .25
+    }
+    50% {
+        transform: scale (1, 5);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: .25;
+    }
+}
+.circle {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    opacity: .25;
+}
+.red {
+    background-color: red;
+    position: absolute;
+    top: 195px;
+    left: 110px;
+    -webkit-animation: up-right 1s infinite;
+    -moz-animation: up-right 1s infinite;
+    -o-animation: up-right 1s infinite;
+    animation: up-right 1s infinite;
+}

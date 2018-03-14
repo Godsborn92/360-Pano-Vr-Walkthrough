@@ -16,6 +16,43 @@
             }
             }
     },
+
+    "controllers":{
+        "enabled":"true",
+        "instances":[
+            {
+                "uid":"controller-0",
+                "type":"pointer",
+                "enabled": "true",
+                "options":{
+                    "fullscreen":"true",
+                    "orientation":{
+                        "drag":"false",
+                        "hardness": 1.1,
+                        "damping": 0.15,
+                        "velocityMax": 300,
+                        "invert":{}
+
+                    }
+                }
+            },
+            {
+                "uid":"controller-1",
+                "type":"gyroscope",
+                "enabled":"true",
+                "options":{
+                    "fullscreen":"true",
+                    "orientation":{
+                        "drag":"false",
+                        "hardness":2.5,
+                        "damping":0.15,
+                        "velocityMax":300,
+                        "invert":{}
+                    }
+                }
+            }
+        ]
+    },
     
 
     "story": {
@@ -37,7 +74,7 @@
 
                     "source": {
                         "format": "equi",
-                        "url":"./images/1583/entry.jpg"
+                        "url":"./images/1602/entry.jpg"
                     }
                 },
 
@@ -54,7 +91,7 @@
 
                             "rotation": {
                                 "x": 85,
-                                "y": -45
+                                "y": 0
                             }
                         },
 
@@ -84,7 +121,7 @@
 
                         "transform": {
                             "position": {
-                                "theta": 77,
+                                "theta": 72,
                                 "phi": -41,
                                 "radius": 700
                             },
@@ -120,7 +157,7 @@
 
                         "transform": {
                             "position": {
-                                "theta": 136,
+                                "theta": 130,
                                 "phi": -50,
                                 "radius": 700
                             },
@@ -202,7 +239,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583/bed-3.jpg"
+                            "./images/1602/bed-3.jpg"
                     }
                 },
 
@@ -212,14 +249,14 @@
 
                         "transform": {
 								"position": {
-                                "theta": -170,
-                                "phi": -39,
+                                "theta": -180,
+                                "phi": -49,
                                 "radius": 700
                             },
 
                             "rotation": {
                                 "x": 85,
-                                "y": -180
+                                "y": 145
                             }
                         },
 
@@ -241,6 +278,76 @@
                             "onClick": ["action-loadscene-1", "action-camera-2"]
 							
                         }
+                    },
+                    {
+                        "uid": "hotspot-s2-2",
+
+                        "transform": {
+								"position": {
+                                "theta": 170,
+                                "phi": -39,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 85,
+                                "y": -90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/bath2.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-3", "action-camera-2"]
+							
+                        }
+                    },
+                    {
+                        "uid": "hotspot-s2-3",
+
+                        "transform": {
+								"position": {
+                                "theta": -180,
+                                "phi": -25,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 85,
+                                "y": -180
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/bed2.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-4", "action-camera-2"]
+							
+                        }
                     }
                 ]
             },
@@ -258,7 +365,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583/bath-2.jpg"
+                            "./images/1602/bath-2.jpg"
                     }
                 },
 
@@ -268,7 +375,7 @@
 
                         "transform": {
                             "position": {
-                                "theta": -73,
+                                "theta": -66,
                                 "phi": -64,
                                 "radius": 600
                             },
@@ -297,7 +404,42 @@
                             "onClick": ["action-loadscene-1", "action-camera-2"]
 							
                         }
-                    }                                       
+                    },
+                    {
+                        "uid": "hotspot-s3-2",
+
+                        "transform": {
+                            "position": {
+                                "theta": -55,
+                                "phi": -50,
+                                "radius": 600
+                            },
+
+                            "rotation": {
+                                "x": 85,
+                                "y": 0
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/bed3.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-2", "action-camera-1"]
+							
+                        }
+                    }                                        
                 ]
             },
 
@@ -314,7 +456,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583/bed-2.jpg"
+                            "./images/1602/bed-2.jpg"
                     }
                 },
 
@@ -324,14 +466,14 @@
 
                         "transform": {
                             "position": {
-                                "theta": -15,
-                                "phi": -52,
+                                "theta": -9,
+                                "phi": -48,
                                 "radius": 700
                             },
 
                             "rotation": {
                                 "x": 82,
-                                "y": 0
+                                "y": 45
                             }
                         },
 
@@ -353,6 +495,41 @@
                             "onClick": ["action-loadscene-1", "action-camera-2"]
 							
                         }
+                    },
+                    {
+						"uid": "hotspot-s4-2",
+
+                        "transform": {
+                            "position": {
+                                "theta": -6,
+                                "phi": -28,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 0
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/bed3.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-2", "action-camera-2"]
+							
+                        }
 					}
                 ]
             },
@@ -370,7 +547,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583/hall.jpg"
+                            "./images/1602/hall.jpg"
                     }
                 },
 
@@ -380,7 +557,7 @@
 
                         "transform": {
                             "position": {
-                                "theta": -1,
+                                "theta": 2,
                                 "phi": -28,
                                 "radius": 700
                             },
@@ -417,7 +594,7 @@
                         "transform": {
                             "position": {
                                 "theta": 28,
-                                "phi": -50,
+                                "phi": -47,
                                 "radius": 700
                             },
 
@@ -452,7 +629,7 @@
 
                         "transform": {
                             "position": {
-                                "theta": -106,
+                                "theta": -135,
                                 "phi": -61,
                                 "radius": 700
                             },
@@ -488,7 +665,7 @@
 
                         "transform": {
                             "position": {
-                                "theta": -180,
+                                "theta": 178,
                                 "phi": -33,
                                 "radius": 700
                             },
@@ -534,7 +711,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583/KIT.jpg"
+                            "./images/1602/KIT.jpg"
                     }
                 },
 
@@ -610,9 +787,44 @@
 							
                         }
                     },
+                    {
+						"uid": "hotspot-s6-3",
+
+                        "transform": {
+                            "position": {
+                                "theta": -75,
+                                "phi": -20,
+                                "radius": 700
+                            },
+
+                            "rotation": {
+                                "x": 82,
+                                "y": 90
+                            }
+                        },
+
+                        "geometry": {
+                            "type": "plane",
+                            "options": {
+                                "width": 100,
+                                "height": 100
+                            }
+                        },
+
+                        "material": {
+                            "image":
+                                "./images/HS/msbed.png",
+                            "opacity": 1
+                        },
+
+                        "events": {
+                            "onClick": ["action-loadscene-10", "action-camera-2"]
+							
+                        }
+                    },
                     
                     {
-                        "uid": "hotspot-s6-3",
+                        "uid": "hotspot-s6-4",
                         "visible": true,
                         "interactive": true,
                         "type": "dom",
@@ -651,7 +863,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583/great-rm.jpg"
+                            "./images/1602/great-rm.jpg"
                     }
                 },
 
@@ -697,7 +909,7 @@
 
                         "transform": {
                             "position": {
-                                "theta": -170,
+                                "theta": -168,
                                 "phi": -28,
                                 "radius": 700
                             },
@@ -733,8 +945,8 @@
 
                         "transform": {
                             "position": {
-                                "theta": -109,
-                                "phi": -25,
+                                "theta": -123,
+                                "phi": -23,
                                 "radius": 700
                             },
 
@@ -779,7 +991,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583/laundry.jpg"
+                            "./images/1602/laundry.jpg"
                     }
                 },
 
@@ -789,7 +1001,7 @@
 
                         "transform": {
                             "position": {
-                                "theta": 73,
+                                "theta": 62,
                                 "phi": -59,
                                 "radius": 700
                             },
@@ -871,7 +1083,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583/garage.jpg"
+                            "./images/1602/garage.jpg"
                     }
                 },
 
@@ -927,7 +1139,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583/mbed.jpg"
+                            "./images/1602/mbed.jpg"
                     }
                 },
 
@@ -937,8 +1149,8 @@
 
                         "transform": {
                             "position": {
-                                "theta": -155,
-                                "phi": -30,
+                                "theta": -161,
+                                "phi": -25,
                                 "radius": 700
                             },
 
@@ -974,7 +1186,7 @@
                         "transform": {
                             "position": {
                                 "theta": 170,
-                                "phi": -38,
+                                "phi": -32,
                                 "radius": 700
                             },
 
@@ -1019,7 +1231,7 @@
                     "source": {
                         "format": "equi",
                         "url":
-                            "./images/1583/mbath.jpg"
+                            "./images/1602/mbath.jpg"
                     }
                 },
 
@@ -1029,7 +1241,7 @@
 
                         "transform": {
                             "position": {
-                                "theta": 5,
+                                "theta": 8,
                                 "phi": -28,
                                 "radius": 700
                             },

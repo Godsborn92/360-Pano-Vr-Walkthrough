@@ -173,7 +173,7 @@ color:#4242f4;
 }
 
 /* On hover, add a background color with a little bit see-through */
-.prev:hover, next:hover {
+.prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
